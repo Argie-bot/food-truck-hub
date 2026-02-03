@@ -37,10 +37,10 @@ export function LivePermitStatus({ cityName }: LivePermitStatusProps) {
       setLoading(true);
       setError(null);
       
-      const response = await fetch(`/api/permits?city=${encodeURIComponent(cityName)}`);
+      const response = await fetch(`/api/opportunities?city=${encodeURIComponent(cityName)}`);
       
       if (!response.ok) {
-        throw new Error('Failed to fetch permit status');
+        throw new Error('Failed to fetch permit opportunities');
       }
       
       const data = await response.json();
