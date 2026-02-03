@@ -56,7 +56,8 @@ export async function GET(request: NextRequest) {
   try {
     const status = await checkPermitStatus(city);
     return NextResponse.json(status);
-  } catch (error) {
+  } catch (err) {
+    console.error('Error checking permit status:', err);
     return NextResponse.json(
       { error: 'Failed to check permit status' }, 
       { status: 500 }
@@ -73,7 +74,8 @@ export async function POST() {
     );
     
     return NextResponse.json(statuses);
-  } catch (error) {
+  } catch (err) {
+    console.error('Error checking permit statuses:', err);
     return NextResponse.json(
       { error: 'Failed to check permit statuses' }, 
       { status: 500 }
