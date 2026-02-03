@@ -1,36 +1,142 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚚 Food Truck Permit Hub
 
-## Getting Started
+**Know Before You Roll** — The first comprehensive food truck permit database.
 
-First, run the development server:
+Find permit requirements, costs, and deadlines for operating a food truck in any major US city. Stop Googling. Start operating.
+
+![Food Truck Hub](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-38B2AC?style=flat-square&logo=tailwind-css)
+
+## ✨ Features
+
+- **25+ Cities** — Comprehensive permit data for all major US food truck markets
+- **Real Gov Data** — Sourced directly from official city and county websites
+- **Cost Calculator** — See total annual permit costs at a glance
+- **Direct Links** — One-click access to official application pages
+- **Mobile-First** — Fully responsive design for on-the-go food truckers
+- **Fast** — Static generation for instant page loads
+
+## 🎯 Pages
+
+### Home (`/`)
+- Hero section with search
+- Featured cities grid (top 8 by truck count)
+- Value proposition cards
+
+### Cities Directory (`/cities`)
+- All 25 cities in a filterable grid
+- Filter by state
+- Sort by name, truck count, or permit cost
+
+### City Detail (`/cities/[cityId]`)
+- Complete permit breakdown
+- Cost and renewal information
+- Health department contacts
+- Operating restrictions
+- Local tips and notes
+- Links to official sources
+
+### Search (`/search?q=...`)
+- City and state search
+- Instant results with suggestions
+
+## 🏗️ Tech Stack
+
+- **Framework:** Next.js 14 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Components:** shadcn/ui
+- **Deployment:** Vercel (recommended)
+
+## 🚀 Getting Started
 
 ```bash
+# Clone the repo
+git clone https://github.com/Argie-bot/food-truck-hub.git
+cd food-truck-hub
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📁 Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+food-truck-hub/
+├── src/
+│   ├── app/
+│   │   ├── page.tsx              # Home page
+│   │   ├── cities/
+│   │   │   ├── page.tsx          # Directory
+│   │   │   └── [cityId]/page.tsx # City detail
+│   │   ├── search/page.tsx       # Search results
+│   │   └── layout.tsx            # Root layout
+│   ├── components/
+│   │   ├── ui/                   # shadcn components
+│   │   ├── CityCard.tsx
+│   │   ├── PermitCard.tsx
+│   │   ├── SearchBar.tsx
+│   │   ├── Header.tsx
+│   │   └── Footer.tsx
+│   └── data/
+│       └── cities.ts             # Data loader + types
+├── data/
+│   ├── cities-1-13.json          # Research data (cities 1-13)
+│   └── cities-14-25.json         # Research data (cities 14-25)
+└── public/
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎨 Design System
 
-## Learn More
+**Colors:**
+- Primary: Orange (`#F97316`) — food/energy vibes
+- Secondary: Slate (`#1E293B`) — professional
+- Accent: White, light gray backgrounds
+- Success: Green for verified badges
 
-To learn more about Next.js, take a look at the following resources:
+**Typography:**
+- Font: Inter (system fallback)
+- Headings: Bold, clean
+- Body: 16px base, readable
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📊 Data Sources
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+All permit data is sourced from official government websites:
+- City health departments
+- County environmental health divisions
+- State licensing agencies
+- Official fee schedules
 
-## Deploy on Vercel
+**Disclaimer:** Requirements change. Always verify with local authorities before applying.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚢 Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Vercel (Recommended)
+
+1. Push to GitHub
+2. Import project in Vercel
+3. Deploy!
+
+Or use the Vercel CLI:
+```bash
+vercel --prod
+```
+
+## 📝 License
+
+MIT
+
+## 🤝 Contributing
+
+PRs welcome! If you find outdated permit info, please open an issue.
+
+---
+
+Built with ❤️ for food truckers everywhere.
