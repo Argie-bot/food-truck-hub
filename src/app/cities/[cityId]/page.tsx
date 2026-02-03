@@ -17,6 +17,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { PermitCard } from "@/components/PermitCard";
+import { LivePermitStatus } from "@/components/LivePermitStatus";
 import { 
   cities, 
   getCityById, 
@@ -139,6 +140,13 @@ export default async function CityDetailPage({ params }: { params: Promise<{ cit
         <div className="grid lg:grid-cols-3 gap-8">
           {/* Main Content */}
           <div className="lg:col-span-2 space-y-8">
+            {/* Live Permit Status */}
+            {(city.name.toLowerCase().includes('austin') || city.name.toLowerCase().includes('portland')) && (
+              <section>
+                <LivePermitStatus cityName={city.name} />
+              </section>
+            )}
+            
             {/* Permits Section */}
             <section>
               <h2 className="text-2xl font-bold text-slate-800 mb-4 flex items-center gap-2">
