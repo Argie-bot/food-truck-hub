@@ -20,7 +20,7 @@ export default function Home() {
               <span className="text-orange-500">Roll</span> 🚚
             </h1>
             <p className="text-lg md:text-xl text-slate-600 mb-8 max-w-2xl mx-auto">
-              The first comprehensive food truck permit database. 
+              The first comprehensive food truck permit database with live search autocomplete and clickable city cards.
               Stop Googling. Start operating.
             </p>
             
