@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+// Updated API for permit opportunities - v1.1
+
 interface PermitOpportunity {
   name: string;
   cost: string;
