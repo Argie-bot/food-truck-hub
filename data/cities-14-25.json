@@ -1,0 +1,1235 @@
+{
+  "metadata": {
+    "generatedAt": "2026-02-03",
+    "researcher": "Permit Research Specialist #2",
+    "citiesCount": 12,
+    "version": "1.0"
+  },
+  "cities": [
+    {
+      "id": "atlanta-ga",
+      "name": "Atlanta",
+      "state": "Georgia",
+      "stateAbbrev": "GA",
+      "population": 498715,
+      "estFoodTrucks": 400,
+      "permits": [
+        {
+          "type": "Mobile Food Unit Permit",
+          "description": "Required health permit for all mobile food service operations in Fulton County",
+          "issuingAgency": "Fulton County Board of Health",
+          "cost": 450,
+          "costPeriod": "annual",
+          "annualizedCost": 450,
+          "costNotes": "Ranges from $450-$750 depending on risk level",
+          "requirements": [
+            "Commissary agreement",
+            "Health inspection",
+            "Food manager certificate",
+            "Plan review approval"
+          ],
+          "documents": [
+            "Floor plan",
+            "Menu",
+            "Proof of commissary",
+            "Vehicle registration"
+          ],
+          "applicationUrl": "https://www.fultoncountyga.gov/inside-fulton-county/fulton-county-departments/board-of-health",
+          "infoUrl": "https://atlfta.org/food-trucks-permit-and-licenses-in-atlanta",
+          "processingTime": "2-4 weeks",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Plan Review Fee",
+          "description": "One-time plan review for new mobile food units",
+          "issuingAgency": "Fulton County Board of Health",
+          "cost": 300,
+          "costPeriod": "one-time",
+          "annualizedCost": 0,
+          "requirements": [
+            "Equipment layout",
+            "Menu",
+            "Water and waste systems plan"
+          ],
+          "documents": [
+            "Detailed floor plan",
+            "Equipment specifications"
+          ],
+          "applicationUrl": "https://www.fultoncountyga.gov/inside-fulton-county/fulton-county-departments/board-of-health",
+          "infoUrl": "https://atlfta.org/food-trucks-permit-and-licenses-in-atlanta",
+          "processingTime": "1-2 weeks",
+          "renewalPeriod": "one-time"
+        },
+        {
+          "type": "Public Vending Permit",
+          "description": "Required for operating in City of Atlanta public right-of-way locations",
+          "issuingAgency": "City of Atlanta Office of Revenue",
+          "cost": 350,
+          "costPeriod": "annual",
+          "annualizedCost": 350,
+          "requirements": [
+            "Background check ($50)",
+            "Fingerprinting ($20)",
+            "Application fee ($75)",
+            "Valid health permit"
+          ],
+          "documents": [
+            "Photo ID",
+            "Health permit",
+            "Vehicle registration"
+          ],
+          "applicationUrl": "https://www.atlantaga.gov/government/departments/finance/office-of-revenue",
+          "infoUrl": "https://www.atlantaga.gov/government/departments/city-planning/economic-development/vending-program/street-eats-atlanta-food-truck-program",
+          "processingTime": "1-2 weeks",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Business License",
+          "description": "City of Atlanta business license for food truck operations",
+          "issuingAgency": "City of Atlanta Office of Revenue",
+          "cost": 75,
+          "costPeriod": "annual",
+          "annualizedCost": 75,
+          "costNotes": "Ranges from $50-$100+ based on revenue",
+          "requirements": [
+            "Business registration",
+            "Tax registration"
+          ],
+          "documents": [
+            "Articles of organization (if LLC)",
+            "EIN documentation"
+          ],
+          "applicationUrl": "https://www.atlantaga.gov/government/departments/finance/office-of-revenue",
+          "infoUrl": "https://atlfta.org/food-trucks-permit-and-licenses-in-atlanta",
+          "processingTime": "1 week",
+          "renewalPeriod": "annual"
+        }
+      ],
+      "healthDept": {
+        "name": "Fulton County Board of Health",
+        "phone": "404-613-1306",
+        "website": "https://www.fultoncountyga.gov/inside-fulton-county/fulton-county-departments/board-of-health",
+        "inspectionRequired": true
+      },
+      "restrictions": [
+        "Must be 200 feet from eating establishments or 100 feet from food-selling retail stores unless owner permission obtained",
+        "Cannot be within 25 feet of any right-of-way, entryway, or curb-cut",
+        "Must operate from designated locations in Street Eats Atlanta program"
+      ],
+      "estimatedFirstYearCost": {
+        "low": 1295,
+        "high": 1645
+      },
+      "estimatedAnnualRenewal": {
+        "low": 850,
+        "high": 1200
+      },
+      "notes": [
+        "Fulton County requirements may differ from City of Atlanta requirements",
+        "Food trucks serving prepared/unpackaged foods have stricter requirements than pre-packaged vendors",
+        "Street Eats Atlanta program designates specific vending locations"
+      ],
+      "sources": [
+        "https://atlfta.org/food-trucks-permit-and-licenses-in-atlanta",
+        "https://www.atlantaga.gov/government/departments/city-planning/economic-development/vending-program/street-eats-atlanta-food-truck-program",
+        "https://www.fultoncountyga.gov/inside-fulton-county/fulton-county-departments/board-of-health"
+      ],
+      "lastVerified": "2026-02-03"
+    },
+    {
+      "id": "nashville-tn",
+      "name": "Nashville",
+      "state": "Tennessee",
+      "stateAbbrev": "TN",
+      "population": 689447,
+      "estFoodTrucks": 350,
+      "permits": [
+        {
+          "type": "Mobile Food Service Establishment Permit",
+          "description": "Health permit for mobile food units in Davidson County",
+          "issuingAgency": "Metro Nashville Public Health Department",
+          "cost": "varies",
+          "costPeriod": "annual",
+          "annualizedCost": null,
+          "requirements": [
+            "Commissary agreement",
+            "Health inspection",
+            "Food safety certification",
+            "Plan review"
+          ],
+          "documents": [
+            "Floor plan",
+            "Equipment list",
+            "Menu",
+            "Commissary contract"
+          ],
+          "applicationUrl": "https://www.nashville.gov/departments/health/environmental-health/food-and-public-facilities/pay-your-permit-online",
+          "infoUrl": "https://filetransfer.nashville.gov/portals/0/sitecontent/Health/PDFs/FoodProtection/MobileRegs_PartA.pdf",
+          "processingTime": "2-4 weeks",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Mobile Food Vendor Permit (Right-of-Way)",
+          "description": "Required for operating in public right-of-way locations",
+          "issuingAgency": "Nashville Department of Transportation (NDOT)",
+          "cost": "varies",
+          "costPeriod": "annual",
+          "annualizedCost": null,
+          "requirements": [
+            "Valid health permit",
+            "Fire department certification",
+            "Liability insurance ($1,000,000)",
+            "Solid waste compliance"
+          ],
+          "documents": [
+            "Health permit",
+            "Fire certification",
+            "Insurance certificate",
+            "Vehicle registration"
+          ],
+          "applicationUrl": "https://www.nashville.gov/departments/transportation/permits/mobile-food-vendor",
+          "infoUrl": "https://www.nashville.gov/departments/transportation/permits/mobile-food-vendor",
+          "processingTime": "2-3 weeks",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Metro Parks Food Truck Permit",
+          "description": "Special permit for operating in Metro Parks locations",
+          "issuingAgency": "Metro Parks & Recreation",
+          "cost": "varies",
+          "costPeriod": "per event/season",
+          "annualizedCost": null,
+          "requirements": [
+            "$1,000,000 liability insurance naming Metro Parks as additionally insured",
+            "Metro Fire Department certification",
+            "Metro Health Department certification"
+          ],
+          "documents": [
+            "Insurance certificate",
+            "Fire certification",
+            "Health permit"
+          ],
+          "applicationUrl": "https://www.nashville.gov/departments/parks/permits-rentals-and-reservations/food-trucks",
+          "infoUrl": "https://www.nashville.gov/departments/parks/permits-rentals-and-reservations/food-trucks",
+          "processingTime": "1-2 weeks",
+          "renewalPeriod": "varies"
+        },
+        {
+          "type": "Business Tax License",
+          "description": "Davidson County business license",
+          "issuingAgency": "Davidson County Clerk's Office",
+          "cost": "varies",
+          "costPeriod": "annual",
+          "annualizedCost": null,
+          "costNotes": "Based on gross receipts",
+          "requirements": [
+            "Business registration"
+          ],
+          "documents": [
+            "Business formation documents"
+          ],
+          "applicationUrl": "https://www.nashville.gov",
+          "infoUrl": "https://www.nashville.gov",
+          "processingTime": "1 week",
+          "renewalPeriod": "annual"
+        }
+      ],
+      "healthDept": {
+        "name": "Metro Nashville Public Health Department - Food Protection Division",
+        "phone": "615-340-5620",
+        "website": "https://www.nashville.gov/departments/health/environmental-health/food-and-public-facilities",
+        "inspectionRequired": true
+      },
+      "restrictions": [
+        "Must not block pedestrian or vehicular traffic",
+        "Distance requirements from brick-and-mortar restaurants may apply",
+        "Specific operating hours in designated locations",
+        "Mobile Food Vendor Pilot Program has designated zones"
+      ],
+      "notes": [
+        "BL2024-391 legislation authorizes NDOT to regulate mobile food vending in public right-of-way",
+        "Fair and festival operations may have different requirements",
+        "Commissary agreement required for food storage and preparation"
+      ],
+      "sources": [
+        "https://www.nashville.gov/departments/transportation/permits/mobile-food-vendor",
+        "https://www.nashville.gov/departments/parks/permits-rentals-and-reservations/food-trucks",
+        "https://filetransfer.nashville.gov/portals/0/sitecontent/Health/PDFs/FoodProtection/MobileRegs_PartA.pdf"
+      ],
+      "lastVerified": "2026-02-03"
+    },
+    {
+      "id": "las-vegas-nv",
+      "name": "Las Vegas",
+      "state": "Nevada",
+      "stateAbbrev": "NV",
+      "population": 641903,
+      "estFoodTrucks": 450,
+      "permits": [
+        {
+          "type": "Mobile Food Vendor Health Permit",
+          "description": "Health permit required for all mobile food operations in Clark County",
+          "issuingAgency": "Southern Nevada Health District",
+          "cost": 500,
+          "costPeriod": "annual",
+          "annualizedCost": 500,
+          "costNotes": "Plan review and permit fees combined; approximately $500 one-time",
+          "requirements": [
+            "Commissary agreement",
+            "Health inspection",
+            "Plan review approval",
+            "Food handler cards"
+          ],
+          "documents": [
+            "Floor plan",
+            "Menu",
+            "Commissary contract",
+            "Equipment specifications"
+          ],
+          "applicationUrl": "https://www.southernnevadahealthdistrict.org/permits-and-regulations/mobile-vendor-application-process/",
+          "infoUrl": "https://www.southernnevadahealthdistrict.org/permits-and-regulations/mobile-vendor-application-process/",
+          "processingTime": "2-4 weeks",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Mobile Food Vendor Business License",
+          "description": "City of Las Vegas business license for food truck operations",
+          "issuingAgency": "City of Las Vegas Business Licensing",
+          "cost": 150,
+          "costPeriod": "initial + renewal",
+          "annualizedCost": 100,
+          "costNotes": "$100 initial fee + $50 application fee; renewal based on revenue",
+          "requirements": [
+            "Valid health permit",
+            "Commissary agreement",
+            "Liability insurance naming City of Las Vegas as additional insured",
+            "Nevada DMV vehicle registration",
+            "Nevada driver's license"
+          ],
+          "documents": [
+            "Health permit",
+            "Commissary agreement",
+            "Insurance certificate",
+            "Vehicle registration",
+            "Driver's license",
+            "Photos of food truck"
+          ],
+          "applicationUrl": "https://www.lasvegasnevada.gov/Business/Business-License/Food-Trucks",
+          "infoUrl": "https://www.lasvegasnevada.gov/Business/Business-License/Food-Trucks",
+          "processingTime": "1-2 weeks",
+          "renewalPeriod": "semi-annual (based on revenue)"
+        },
+        {
+          "type": "Fire Prevention Inspection",
+          "description": "Annual fire safety inspection for food trucks",
+          "issuingAgency": "City of Las Vegas Fire Prevention Division",
+          "cost": "included",
+          "costPeriod": "annual",
+          "annualizedCost": 0,
+          "requirements": [
+            "Proper fire suppression system",
+            "LP gas inspection (if applicable)",
+            "Fire extinguisher"
+          ],
+          "documents": [
+            "Fire suppression certification"
+          ],
+          "applicationUrl": "https://www.lasvegasnevada.gov/Business/Business-License/Food-Trucks",
+          "infoUrl": "https://files.lasvegasnevada.gov/business-licensing/Mobile-Food-Vendor-Preparing-For-Fire-Inspection.pdf",
+          "processingTime": "1 week",
+          "renewalPeriod": "annual"
+        }
+      ],
+      "healthDept": {
+        "name": "Southern Nevada Health District - Environmental Health",
+        "phone": "702-759-1127",
+        "website": "https://www.southernnevadahealthdistrict.org/permits-and-regulations/",
+        "inspectionRequired": true
+      },
+      "restrictions": [
+        "Cannot disconnect trailer/portable unit except in emergency",
+        "Open Air Food Vending license needed for single location more than 4 hours",
+        "Disturbed area cannot exceed 5,000 square feet",
+        "Must comply with Clark County air quality standards"
+      ],
+      "opportunities": {
+        "foodTruckThursdays": "Every other Thursday at Las Vegas Civic Center, 11am-1pm",
+        "mobileFoodTruckLottery": "Designated downtown parking spaces; lottery held January and July"
+      },
+      "notes": [
+        "Renewal fees based on semi-annual revenue per city fee schedule",
+        "Missed appointment fee of $239 if less than 24 hours notice",
+        "Environmental Compliance team assists with waste disposal compliance"
+      ],
+      "sources": [
+        "https://www.lasvegasnevada.gov/Business/Business-License/Food-Trucks",
+        "https://www.southernnevadahealthdistrict.org/permits-and-regulations/mobile-vendor-application-process/",
+        "https://files.lasvegasnevada.gov/business-licensing/Mobile-Food-Vendor-Instruction-Sheet.pdf"
+      ],
+      "lastVerified": "2026-02-03"
+    },
+    {
+      "id": "philadelphia-pa",
+      "name": "Philadelphia",
+      "state": "Pennsylvania",
+      "stateAbbrev": "PA",
+      "population": 1576251,
+      "estFoodTrucks": 600,
+      "permits": [
+        {
+          "type": "Food Establishment Retail, Non-Permanent Location License",
+          "description": "Required license for food trucks, movable stands, and carts",
+          "issuingAgency": "Philadelphia Department of Licenses and Inspections",
+          "cost": 165,
+          "costPeriod": "annual",
+          "annualizedCost": 165,
+          "costNotes": "$20 non-refundable application fee applied toward license fee",
+          "requirements": [
+            "Plan review approval",
+            "Health inspection",
+            "City Food Safety Certificate",
+            "Current on all City taxes"
+          ],
+          "documents": [
+            "Floor plan",
+            "Menu",
+            "Food safety certificate",
+            "Food purchase records (last 30 days)"
+          ],
+          "applicationUrl": "https://eclipse.phila.gov/phillylmsprod/pub/lms/Login.aspx",
+          "infoUrl": "https://www.phila.gov/services/permits-violations-licenses/get-a-license/business-licenses/food-businesses/get-a-food-establishment-retail-non-permanent-location-license/",
+          "processingTime": "5 business days (online review)",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Mobile Food Plan Review",
+          "description": "Plan review required before operating a mobile food business",
+          "issuingAgency": "Philadelphia Department of Licenses and Inspections",
+          "cost": "included",
+          "costPeriod": "one-time",
+          "annualizedCost": 0,
+          "requirements": [
+            "City of Philadelphia Food Safety Certificate",
+            "Photo identification",
+            "Complete plan review application"
+          ],
+          "documents": [
+            "Floor plan",
+            "Equipment layout",
+            "Menu"
+          ],
+          "applicationUrl": "https://www.phila.gov/services/permits-violations-licenses/get-a-license/business-licenses/food-businesses/apply-for-a-plan-review-for-a-mobile-food-business/",
+          "infoUrl": "https://www.phila.gov/services/permits-violations-licenses/get-a-license/business-licenses/food-businesses/apply-for-a-plan-review-for-a-mobile-food-business/",
+          "processingTime": "2-3 weeks",
+          "renewalPeriod": "one-time"
+        }
+      ],
+      "healthDept": {
+        "name": "Philadelphia Department of Public Health",
+        "phone": "215-685-5488",
+        "website": "https://www.phila.gov/departments/department-of-public-health/",
+        "inspectionRequired": true
+      },
+      "restrictions": [
+        "Must have Annual License Eligibility Report from Philadelphia Department of Health for renewal",
+        "Late renewal (60+ days) incurs 1.5% monthly fee"
+      ],
+      "paymentMethods": {
+        "online": ["Electronic check", "Credit card (+2.10%)", "Debit card (+$3.45)"],
+        "inPerson": ["Check", "Money order", "Credit card", "Cash"]
+      },
+      "notes": [
+        "License can be renewed online through eCLIPSE system",
+        "Food safety certified staff must attend inspection with photo ID",
+        "$500,000 limit for online payments"
+      ],
+      "sources": [
+        "https://www.phila.gov/services/permits-violations-licenses/get-a-license/business-licenses/food-businesses/get-a-food-establishment-retail-non-permanent-location-license/",
+        "https://www.phila.gov/services/permits-violations-licenses/get-a-license/business-licenses/food-businesses/apply-for-a-plan-review-for-a-mobile-food-business/",
+        "https://business.phila.gov/business/food-drink/mobile-food-business/"
+      ],
+      "lastVerified": "2026-02-03"
+    },
+    {
+      "id": "san-antonio-tx",
+      "name": "San Antonio",
+      "state": "Texas",
+      "stateAbbrev": "TX",
+      "population": 1451853,
+      "estFoodTrucks": 500,
+      "permits": [
+        {
+          "type": "Mobile Food Establishment Permit",
+          "description": "Health permit for mobile food operations",
+          "issuingAgency": "San Antonio Metropolitan Health District",
+          "cost": "varies",
+          "costPeriod": "annual",
+          "annualizedCost": null,
+          "requirements": [
+            "Food handler certification",
+            "Commissary agreement",
+            "Health inspection",
+            "Vehicle meets code requirements"
+          ],
+          "documents": [
+            "Floor plan",
+            "Menu",
+            "Commissary contract",
+            "Food handler certificates"
+          ],
+          "applicationUrl": "https://www.sanantonio.gov/Health/FoodLicensing/Mobile/MobileVending",
+          "infoUrl": "https://www.sanantonio.gov/Health/FoodLicensing/Mobile/MobileVending",
+          "processingTime": "2-4 weeks",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Fire Department Mobile Food Booth Certification",
+          "description": "Fire safety inspection and certification for mobile food units",
+          "issuingAgency": "San Antonio Fire Department - Fire Prevention Division",
+          "cost": "varies",
+          "costPeriod": "annual",
+          "annualizedCost": null,
+          "requirements": [
+            "Fire suppression system",
+            "Proper ventilation",
+            "Fire extinguisher"
+          ],
+          "documents": [
+            "Fire suppression certification",
+            "Equipment specifications"
+          ],
+          "applicationUrl": "https://www.sanantonio.gov/Portals/0/Files/SAFD/BussinessInspections/Mobile_Food_Booth_Requirements_Updated.pdf",
+          "infoUrl": "https://www.sanantonio.gov/Portals/0/Files/SAFD/BussinessInspections/Mobile_Food_Booth_Requirements_Updated.pdf",
+          "processingTime": "1-2 weeks",
+          "renewalPeriod": "annual"
+        }
+      ],
+      "healthDept": {
+        "name": "San Antonio Metropolitan Health District - Food Licensing",
+        "phone": "210-207-8853",
+        "website": "https://www.sanantonio.gov/Health/FoodLicensing",
+        "inspectionRequired": true,
+        "inspectionSchedule": "Tuesdays and Thursdays, 8:00 AM - 10:00 AM (appointment required)"
+      },
+      "restrictions": [
+        "Permit specifies type of food, manner of vending, and vehicle description",
+        "Designated vending locations include Main Plaza, Travis Park, Soledad Street, Madison Park"
+      ],
+      "notes": [
+        "Mobile food vending inspections by appointment only",
+        "Texas Department of State Health Services handles food manufacturer licenses",
+        "Check local code for distance requirements from restaurants"
+      ],
+      "sources": [
+        "https://www.sanantonio.gov/Health/FoodLicensing/Mobile/MobileVending",
+        "https://311.sanantonio.gov/kb/docs/articles/business-and-licensing/mobile-food-vending-requirements",
+        "https://www.sanantonio.gov/Portals/0/Files/SAFD/BussinessInspections/Mobile_Food_Booth_Requirements_Updated.pdf"
+      ],
+      "lastVerified": "2026-02-03"
+    },
+    {
+      "id": "orlando-fl",
+      "name": "Orlando",
+      "state": "Florida",
+      "stateAbbrev": "FL",
+      "population": 307573,
+      "estFoodTrucks": 300,
+      "permits": [
+        {
+          "type": "State Mobile Food Dispensing Vehicle License",
+          "description": "Florida state license required for all mobile food operations",
+          "issuingAgency": "Florida Department of Agriculture and Consumer Services (FDACS)",
+          "cost": "free",
+          "costPeriod": "annual",
+          "annualizedCost": 0,
+          "costNotes": "Free permit with application; must meet inspection requirements",
+          "requirements": [
+            "Commissary agreement",
+            "Food safety manager certification",
+            "Vehicle inspection",
+            "Proper equipment"
+          ],
+          "documents": [
+            "Application form",
+            "Commissary contract",
+            "Floor plan"
+          ],
+          "applicationUrl": "https://www.fdacs.gov/Business-Services/Food-Establishments/Mobile-Food-Vendors",
+          "infoUrl": "https://www.fdacs.gov/Business-Services/Food-Establishments/Mobile-Food-Vendors",
+          "processingTime": "2-4 weeks",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "City of Orlando Business Tax Receipt",
+          "description": "Required to operate a mobile business within Orlando city limits",
+          "issuingAgency": "City of Orlando Economic Development",
+          "cost": "varies",
+          "costPeriod": "annual",
+          "annualizedCost": null,
+          "costNotes": "Based on business type and revenue",
+          "requirements": [
+            "State MFDV license",
+            "Zoning compliance",
+            "Property owner permission (for private property)"
+          ],
+          "documents": [
+            "State license",
+            "Property owner letter (if applicable)"
+          ],
+          "applicationUrl": "https://www.orlando.gov/Building-Development/Permits-Inspections/Other/Get-a-Permit-for-Your-Business/Apply-for-a-Mobile-Business-License",
+          "infoUrl": "https://www.orlando.gov/Building-Development/Permits-Inspections/Get-a-Permit/Permitting-Checklists/Mobile-Business-Guide",
+          "processingTime": "1-2 weeks",
+          "renewalPeriod": "annual"
+        }
+      ],
+      "healthDept": {
+        "name": "Florida Department of Agriculture and Consumer Services",
+        "phone": "1-800-HELP-FLA (435-7352)",
+        "website": "https://www.fdacs.gov/Business-Services/Food-Establishments/Mobile-Food-Vendors",
+        "inspectionRequired": true
+      },
+      "restrictions": [
+        "One vendor per zoning lot (private property)",
+        "Cannot interfere with required parking or loading spaces",
+        "Not allowed on residential property",
+        "Located on paved parking area",
+        "Cannot damage required landscaping",
+        "Cannot be within 5 feet of right-of-way"
+      ],
+      "operatingHours": "6 AM to midnight (unless approved event has different hours)",
+      "zoningRequirements": {
+        "permitted": ["MU-1", "MU-2", "AC-3", "I-G", "I-C"],
+        "conditional": ["AC-1", "AC-2", "AC-3A"]
+      },
+      "notes": [
+        "Mobile Retail Trucks regulated similarly to food trucks",
+        "Permanent food truck pods allow 7 days/week operation",
+        "City-approved special events may have different requirements",
+        "Contact City Planning at 407.246.2269 for questions"
+      ],
+      "sources": [
+        "https://www.orlando.gov/Building-Development/Permits-Inspections/Get-a-Permit/Permitting-Checklists/Mobile-Business-Guide",
+        "https://www.orlando.gov/Building-Development/Permits-Inspections/Other/Get-a-Permit-for-Your-Business/Apply-for-a-Mobile-Business-License",
+        "https://www.fdacs.gov/Business-Services/Food-Establishments/Mobile-Food-Vendors"
+      ],
+      "lastVerified": "2026-02-03"
+    },
+    {
+      "id": "minneapolis-mn",
+      "name": "Minneapolis",
+      "state": "Minnesota",
+      "stateAbbrev": "MN",
+      "population": 429954,
+      "estFoodTrucks": 250,
+      "permits": [
+        {
+          "type": "Food Truck License",
+          "description": "City license required for food truck operations in Minneapolis",
+          "issuingAgency": "Minneapolis Business Licenses & Consumer Services",
+          "cost": 900,
+          "costPeriod": "annual",
+          "annualizedCost": 900,
+          "costNotes": "Approximately $900 for application/renewal",
+          "requirements": [
+            "Food plan review approval",
+            "Licensed commissary kitchen in Minneapolis",
+            "Health inspection",
+            "Location approval"
+          ],
+          "documents": [
+            "Floor plan",
+            "Menu",
+            "Commissary agreement",
+            "Equipment specifications"
+          ],
+          "applicationUrl": "https://www.minneapolismn.gov/business-services/licenses-permits-inspections/business-licenses/food-restaurants/food-truck-cart/food-truck/",
+          "infoUrl": "https://www.minneapolismn.gov/business-services/licenses-permits-inspections/business-licenses/food-restaurants/food-truck-cart/food-truck/",
+          "processingTime": "2-4 weeks",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Food Plan Review",
+          "description": "Required plan review for new food trucks and remodels",
+          "issuingAgency": "Minneapolis Health Department",
+          "cost": "included",
+          "costPeriod": "one-time",
+          "annualizedCost": 0,
+          "requirements": [
+            "Complete floor plan",
+            "Equipment specifications",
+            "Menu",
+            "Water and waste systems"
+          ],
+          "documents": [
+            "Detailed plans",
+            "Equipment list"
+          ],
+          "applicationUrl": "https://www.minneapolismn.gov/business-services/business-assistance/run/food-safety/food-plan-review/",
+          "infoUrl": "https://www.minneapolismn.gov/business-services/business-assistance/run/food-safety/food-plan-review/",
+          "processingTime": "2-3 weeks",
+          "renewalPeriod": "one-time"
+        }
+      ],
+      "healthDept": {
+        "name": "Minneapolis Health Department - Environmental Health",
+        "phone": "612-673-2170",
+        "website": "https://www.minneapolismn.gov/government/departments/health/",
+        "inspectionRequired": true,
+        "inspectionAddress": "Public Service Building, 505 Fourth Ave. S., Room 520"
+      },
+      "restrictions": [
+        "Food preparation and storage must occur at licensed Minneapolis kitchen",
+        "Food trucks may not operate more than 21 days annually at any one location (MN Statute 157.15)",
+        "Trucks must be removed daily when operation ends",
+        "Letter of approval required if near a park, restaurant, or on private property"
+      ],
+      "operatingLocations": [
+        "Approved street locations (curbside vending)",
+        "Breweries and distilleries (with 21-day limitation)",
+        "Private property (with limitations)",
+        "Community events and farmers markets (written permission required)"
+      ],
+      "notes": [
+        "See map of approved street locations on city website",
+        "Green To Go ordinance compliance may be required",
+        "Short-term and seasonal food permits available for event-only operations"
+      ],
+      "sources": [
+        "https://www.minneapolismn.gov/business-services/licenses-permits-inspections/business-licenses/food-restaurants/food-truck-cart/food-truck/"
+      ],
+      "lastVerified": "2026-02-03"
+    },
+    {
+      "id": "tampa-fl",
+      "name": "Tampa",
+      "state": "Florida",
+      "stateAbbrev": "FL",
+      "population": 384959,
+      "estFoodTrucks": 350,
+      "permits": [
+        {
+          "type": "State Mobile Food Dispensing Vehicle License",
+          "description": "Florida Division of Hotels and Restaurants license",
+          "issuingAgency": "Florida Department of Business & Professional Regulation (DBPR)",
+          "cost": "varies",
+          "costPeriod": "annual",
+          "annualizedCost": null,
+          "requirements": [
+            "Commissary agreement",
+            "Food safety manager certification",
+            "Vehicle inspection"
+          ],
+          "documents": [
+            "Application form",
+            "Commissary contract"
+          ],
+          "applicationUrl": "https://www.myfloridalicense.com/intentions2.asp",
+          "infoUrl": "https://www.tampa.gov/special-events-coordination/food-truck",
+          "processingTime": "2-4 weeks",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Business Tax Receipt",
+          "description": "City or County business tax receipt",
+          "issuingAgency": "City/County of Tampa",
+          "cost": "varies",
+          "costPeriod": "annual",
+          "annualizedCost": null,
+          "requirements": [
+            "State MFDV license",
+            "Business registration"
+          ],
+          "documents": [
+            "State license",
+            "Business documentation"
+          ],
+          "applicationUrl": "https://www.tampa.gov",
+          "infoUrl": "https://www.tampa.gov/special-events-coordination/food-truck",
+          "processingTime": "1-2 weeks",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Fire Marshal Permit",
+          "description": "Fire safety permit for food truck operations",
+          "issuingAgency": "Tampa Fire Marshal's Office",
+          "cost": "varies",
+          "costPeriod": "per event/annual",
+          "annualizedCost": null,
+          "requirements": [
+            "Commercial hood with fire suppression (if cooking)",
+            "2A-10BC fire extinguisher (if using heat source)",
+            "Class K extinguisher (if cooking produces grease vapors)"
+          ],
+          "documents": [
+            "Fire Prevention Permit Request Application",
+            "Fire suppression certification"
+          ],
+          "applicationUrl": "https://www.tampa.gov/document/download-fire-prevention-permit-request-application-9131",
+          "infoUrl": "https://www.tampa.gov/special-events-coordination/food-truck",
+          "processingTime": "1-2 weeks",
+          "renewalPeriod": "varies"
+        },
+        {
+          "type": "Zoning/Land Development Approval",
+          "description": "Required for operating on private property adjacent to special events",
+          "issuingAgency": "Tampa Land Development and Zoning",
+          "cost": "varies",
+          "costPeriod": "per application",
+          "annualizedCost": null,
+          "requirements": [
+            "Property owner notarized permission",
+            "Site plan",
+            "Not on residential property"
+          ],
+          "documents": [
+            "Notarized property owner form",
+            "Site plan"
+          ],
+          "applicationUrl": "https://aca.tampagov.net/CitizenAccess/Default.aspx",
+          "infoUrl": "https://www.tampa.gov/special-events-coordination/food-truck",
+          "processingTime": "1-2 weeks",
+          "renewalPeriod": "per application"
+        }
+      ],
+      "healthDept": {
+        "name": "Florida Division of Hotels and Restaurants",
+        "phone": "850-487-1395",
+        "website": "https://www.myfloridalicense.com/DBPR/hotels-restaurants/",
+        "inspectionRequired": true
+      },
+      "restrictions": [
+        "One vendor per zoning lot",
+        "Cannot interfere with required parking or loading spaces",
+        "Not allowed on residential property",
+        "Must have property owner notarized permission for private property"
+      ],
+      "requiredDocuments": [
+        "General and Automotive Liability insurance with policy number",
+        "State DBPR license (current)",
+        "Business Tax documentation (current)",
+        "Food Safety/Professional Manager Certification"
+      ],
+      "notes": [
+        "Public right-of-way vendors must comply with Chapter 28 regulations",
+        "Fire Marshal may inspect at any time during operation",
+        "Proof of commissary association required"
+      ],
+      "sources": [
+        "https://www.tampa.gov/special-events-coordination/food-truck"
+      ],
+      "lastVerified": "2026-02-03"
+    },
+    {
+      "id": "charlotte-nc",
+      "name": "Charlotte",
+      "state": "North Carolina",
+      "stateAbbrev": "NC",
+      "population": 879709,
+      "estFoodTrucks": 400,
+      "permits": [
+        {
+          "type": "Food Service Permit",
+          "description": "Health permit for mobile food operations",
+          "issuingAgency": "Mecklenburg County Health Department",
+          "cost": 75,
+          "costPeriod": "per event/annual",
+          "annualizedCost": null,
+          "costNotes": "$75 per food service permit for temporary/event operations",
+          "requirements": [
+            "Health inspection",
+            "Food safety certification",
+            "Proper equipment"
+          ],
+          "documents": [
+            "Food Vendor Application",
+            "Menu",
+            "Equipment list"
+          ],
+          "applicationUrl": "https://www.charlottenc.gov/files/sharedassets/city/v/1/services/documents/permits/special-events/tfe-food-vendor-application-2020.pdf",
+          "infoUrl": "https://www.charlottenc.gov/Services/Permits/Event-Permits/Food-and-Alcohol-Sales",
+          "processingTime": "1-2 weeks",
+          "renewalPeriod": "varies"
+        },
+        {
+          "type": "Business Privilege License",
+          "description": "City of Charlotte business license",
+          "issuingAgency": "City of Charlotte Business Privilege License Office",
+          "cost": "varies",
+          "costPeriod": "annual",
+          "annualizedCost": null,
+          "requirements": [
+            "Business registration",
+            "Tax registration"
+          ],
+          "documents": [
+            "Business documentation"
+          ],
+          "applicationUrl": "https://www.charlottenc.gov",
+          "infoUrl": "https://www.charlottenc.gov/Services/Permits/Event-Permits/Food-and-Alcohol-Sales",
+          "processingTime": "1 week",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Street Vendor Program Permit",
+          "description": "Permit for operating in designated street vendor locations",
+          "issuingAgency": "City of Charlotte",
+          "cost": "varies",
+          "costPeriod": "varies",
+          "annualizedCost": null,
+          "requirements": [
+            "Valid health permit",
+            "Business license",
+            "Insurance"
+          ],
+          "documents": [
+            "Health permit",
+            "Business license",
+            "Insurance certificate"
+          ],
+          "applicationUrl": "https://www.charlottenc.gov/Services/Permits/Street-Vendor-Programs",
+          "infoUrl": "https://www.charlottenc.gov/Services/Permits/Street-Vendor-Programs",
+          "processingTime": "varies",
+          "renewalPeriod": "varies"
+        }
+      ],
+      "healthDept": {
+        "name": "Charlotte-Mecklenburg Department of Environmental Health",
+        "phone": "980-314-1620",
+        "website": "https://www.mecknc.gov/healthdepartment",
+        "inspectionRequired": true
+      },
+      "restrictions": [
+        "Must comply with Mecklenburg County Health Department regulations",
+        "Non-permitted vendors cannot prepare food on site",
+        "Street Vendor Program has designated locations"
+      ],
+      "programs": {
+        "tryonStreet": "Tryon Street vendor program",
+        "noDaStreetMarket": "NoDa Street Market pilot program"
+      },
+      "notes": [
+        "Applications can be mailed, faxed, or submitted in person",
+        "3205 Freedom Dr Suite 8000 J, Charlotte NC 28208",
+        "Fax: (704) 336-6894"
+      ],
+      "sources": [
+        "https://www.charlottenc.gov/Services/Permits/Event-Permits/Food-and-Alcohol-Sales",
+        "https://www.charlottenc.gov/Services/Permits/Street-Vendor-Programs",
+        "https://www.charlottenc.gov/files/sharedassets/city/v/1/services/documents/permits/special-events/tfe-food-vendor-application-2020.pdf"
+      ],
+      "lastVerified": "2026-02-03"
+    },
+    {
+      "id": "boston-ma",
+      "name": "Boston",
+      "state": "Massachusetts",
+      "stateAbbrev": "MA",
+      "population": 675647,
+      "estFoodTrucks": 300,
+      "permits": [
+        {
+          "type": "Food Truck Permit",
+          "description": "City of Boston food truck operating permit",
+          "issuingAgency": "City of Boston Office of Small Business Development",
+          "cost": 500,
+          "costPeriod": "annual",
+          "annualizedCost": 500,
+          "requirements": [
+            "Health inspection",
+            "Fire department permit (if using open flame/propane)",
+            "Vehicle inspection",
+            "Location approval"
+          ],
+          "documents": [
+            "Application form",
+            "Menu",
+            "Vehicle registration",
+            "Insurance"
+          ],
+          "applicationUrl": "https://onlinepermitsandlicenses.boston.gov/foodtrucks/",
+          "infoUrl": "https://www.boston.gov/departments/small-business-development/how-get-food-truck-permit",
+          "processingTime": "2 weeks",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Boston Fire Department Permit",
+          "description": "Required if using open flame or propane",
+          "issuingAgency": "Boston Fire Department",
+          "cost": "varies",
+          "costPeriod": "annual",
+          "annualizedCost": null,
+          "requirements": [
+            "Health Division approval first",
+            "Fire safety equipment",
+            "Propane safety compliance"
+          ],
+          "documents": [
+            "Health Division approval",
+            "Equipment specifications"
+          ],
+          "applicationUrl": "https://www.boston.gov",
+          "infoUrl": "https://www.cityofboston.gov/foodtrucks/regulations/typesofvending.asp",
+          "processingTime": "1-2 weeks",
+          "renewalPeriod": "annual"
+        }
+      ],
+      "healthDept": {
+        "name": "Boston Public Health Commission - Inspectional Services",
+        "phone": "617-635-4500",
+        "website": "https://www.boston.gov/departments/inspectional-services",
+        "inspectionRequired": true
+      },
+      "locationTypes": {
+        "public": "Applied through lottery system",
+        "private": "Need property owner permission"
+      },
+      "applicationMethods": [
+        "Online application",
+        "In-person at 43 Hawkins Street",
+        "Email to foodtrucks@boston.gov"
+      ],
+      "restrictions": [
+        "All retail food vendors must purchase items from a wholesaler",
+        "Canteen trucks require hand washing facilities, mechanical refrigeration, and hot holding equipment"
+      ],
+      "officeInfo": {
+        "address": "Office of Small Business, Food Truck Coordinator, 43 Hawkins Street, Boston, MA 02114",
+        "permitPickup": "1 City Hall Square, Room 714, Boston City Hall",
+        "hours": "Monday - Friday, 9 AM - 5 PM"
+      },
+      "notes": [
+        "Public site lottery held periodically - notified after permit approval",
+        "Check payable to City of Boston",
+        "Can apply online, in person, or by email"
+      ],
+      "sources": [
+        "https://www.boston.gov/departments/small-business-development/how-get-food-truck-permit",
+        "https://www.cityofboston.gov/foodtrucks/regulations/typesofvending.asp"
+      ],
+      "lastVerified": "2026-02-03"
+    },
+    {
+      "id": "columbus-oh",
+      "name": "Columbus",
+      "state": "Ohio",
+      "stateAbbrev": "OH",
+      "population": 905748,
+      "estFoodTrucks": 350,
+      "permits": [
+        {
+          "type": "Mobile Food Vendor License",
+          "description": "City of Columbus license for food trucks, trailers, and push carts",
+          "issuingAgency": "Columbus Department of Public Safety - License Section",
+          "cost": 180,
+          "costPeriod": "annual",
+          "annualizedCost": 180,
+          "requirements": [
+            "State of Ohio Health Food Service License",
+            "BCI Background check ($32)",
+            "Commercial liability insurance",
+            "Propane pressure test/leak check",
+            "Letter of good standing from Income Tax"
+          ],
+          "documents": [
+            "Mobile Food Vending Application",
+            "Proof of identity",
+            "Vehicle registration",
+            "Insurance certificate ($300K min for pushcarts, $1M for trucks)",
+            "Background check affidavit (if PROW)"
+          ],
+          "applicationUrl": "https://new.columbus.gov/files/sharedassets/city/v/1/business-and-development/business-licenses-amp-resources/1.-mfv-app-packet_01-31-2024.pdf",
+          "infoUrl": "https://www.ecdi.org/post/how-to-get-your-mobile-food-vendor-license-in-columbus",
+          "processingTime": "2-4 weeks",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Application Fee",
+          "description": "One-time application processing fee",
+          "issuingAgency": "Columbus License Section",
+          "cost": 20,
+          "costPeriod": "one-time",
+          "annualizedCost": 0,
+          "requirements": [],
+          "documents": [],
+          "applicationUrl": "https://new.columbus.gov/files/sharedassets/city/v/1/business-and-development/business-licenses-amp-resources/1.-mfv-app-packet_01-31-2024.pdf",
+          "infoUrl": "https://www.ecdi.org/post/how-to-get-your-mobile-food-vendor-license-in-columbus",
+          "processingTime": "immediate",
+          "renewalPeriod": "one-time"
+        },
+        {
+          "type": "Public Right-of-Way License",
+          "description": "Optional license for operating on city streets and sidewalks",
+          "issuingAgency": "Columbus License Section",
+          "cost": 250,
+          "costPeriod": "annual",
+          "annualizedCost": 250,
+          "costNotes": "Only for units under 25' (truck/trailer) or 9' (pushcart)",
+          "requirements": [
+            "Background check affidavit",
+            "MFV License",
+            "Size requirements met"
+          ],
+          "documents": [
+            "Background check affidavit (page 6 of application)"
+          ],
+          "applicationUrl": "https://new.columbus.gov/files/sharedassets/city/v/1/business-and-development/business-licenses-amp-resources/1.-mfv-app-packet_01-31-2024.pdf",
+          "infoUrl": "https://www.ecdi.org/post/how-to-get-your-mobile-food-vendor-license-in-columbus",
+          "processingTime": "included with MFV",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Columbus Public Health Inspection",
+          "description": "Health inspection and food service license",
+          "issuingAgency": "Columbus Public Health",
+          "cost": "varies",
+          "costPeriod": "annual",
+          "annualizedCost": null,
+          "requirements": [
+            "Food safety manager certification",
+            "Equipment meets health codes",
+            "Commissary agreement"
+          ],
+          "documents": [
+            "Health inspection form"
+          ],
+          "applicationUrl": "https://www.columbus.gov",
+          "infoUrl": "https://www.columbus.gov/files/sharedassets/city/v/8/public-health/mobile-licensing-checklist.pdf",
+          "processingTime": "1-2 weeks",
+          "renewalPeriod": "annual"
+        }
+      ],
+      "healthDept": {
+        "name": "Columbus Public Health",
+        "phone": "614-645-6741",
+        "website": "https://www.columbus.gov/publichealth/",
+        "inspectionRequired": true
+      },
+      "restrictions": [
+        "Ohio Department of Agriculture registration required for food processing",
+        "Stock trucks providing additional storage must be inspected"
+      ],
+      "insuranceRequirements": {
+        "pushcarts": "$300,000 minimum",
+        "trucksTrailers": "$1,000,000 minimum"
+      },
+      "officeInfo": {
+        "address": "License Section, 4252 Groves Rd, Columbus, OH 43232",
+        "phone": "614-645-8366",
+        "email": "MFV@columbus.gov",
+        "hours": "Monday - Friday, 8:00 AM - 3:30 PM",
+        "dropBox": "After hours drop box on south side of building"
+      },
+      "notes": [
+        "StreetFoodFinder booking system for PROW spots",
+        "License emailed upon approval",
+        "Contact CRISP help line at 614-645-8899 for tax questions"
+      ],
+      "sources": [
+        "https://www.ecdi.org/post/how-to-get-your-mobile-food-vendor-license-in-columbus",
+        "https://www.columbus.gov/Services/Public-Safety/Fire/Inspections/CFD-Mobile-Food-Vendors-Food-Trucks-Trailers-Push-Carts",
+        "https://www.columbus.gov/files/sharedassets/city/v/1/business-and-development/business-licenses-amp-resources/mobile-food-vendor-update-letter.pdf"
+      ],
+      "lastVerified": "2026-02-03"
+    },
+    {
+      "id": "indianapolis-in",
+      "name": "Indianapolis",
+      "state": "Indiana",
+      "stateAbbrev": "IN",
+      "population": 887642,
+      "estFoodTrucks": 300,
+      "permits": [
+        {
+          "type": "Mobile Food Vendor License",
+          "description": "License for operating food trucks in Marion County",
+          "issuingAgency": "Indianapolis Department of Business and Neighborhood Services (BNS)",
+          "cost": "varies",
+          "costPeriod": "annual",
+          "annualizedCost": null,
+          "requirements": [
+            "Health permit from Marion County",
+            "Food handler certification",
+            "Commissary agreement",
+            "Vehicle inspection"
+          ],
+          "documents": [
+            "Application form",
+            "Health permit",
+            "Insurance",
+            "Vehicle registration"
+          ],
+          "applicationUrl": "https://www.indy.gov/activity/vendor-cart-licenses",
+          "infoUrl": "https://www.indy.gov/activity/business-licenses",
+          "processingTime": "2-4 weeks",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Marion County Health Permit",
+          "description": "Health permit for mobile food operations",
+          "issuingAgency": "Marion County Public Health Department",
+          "cost": "varies",
+          "costPeriod": "annual",
+          "annualizedCost": null,
+          "requirements": [
+            "Food safety certification",
+            "Commissary agreement",
+            "Health inspection",
+            "Equipment meets code"
+          ],
+          "documents": [
+            "Application form",
+            "Floor plan",
+            "Menu",
+            "Commissary contract"
+          ],
+          "applicationUrl": "https://marionhealth.org",
+          "infoUrl": "https://marionhealth.org/wp-content/uploads/2023/11/FAQ-Temp-Food-Establishment-Operations-112723.pdf",
+          "processingTime": "2-4 weeks",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Temporary Food License",
+          "description": "Required for mobile units not licensed in Marion County attending events",
+          "issuingAgency": "Marion County Public Health Department",
+          "cost": "varies",
+          "costPeriod": "per event",
+          "annualizedCost": null,
+          "costNotes": "Must be obtained at least 48 hours prior to event",
+          "requirements": [
+            "Valid health permit from home county",
+            "Event organizer information"
+          ],
+          "documents": [
+            "Home county permit",
+            "Event details"
+          ],
+          "applicationUrl": "https://marionhealth.org",
+          "infoUrl": "https://marionhealth.org/wp-content/uploads/2023/11/FAQ-Temp-Food-Establishment-Operations-112723.pdf",
+          "processingTime": "48 hours minimum",
+          "renewalPeriod": "per event"
+        }
+      ],
+      "healthDept": {
+        "name": "Marion County Public Health Department",
+        "phone": "317-221-2000",
+        "website": "https://marionhealth.org",
+        "inspectionRequired": true
+      },
+      "restrictions": [
+        "Non-Marion County licensed mobile units need temporary food license for events",
+        "Minimum 48 hours notice for temporary permits"
+      ],
+      "notes": [
+        "Mobile Vendor License different from Transient Merchant License",
+        "Contact BNS for specific fee schedule",
+        "Indiana requires mobile food truck (MFT) permit and commissary agreement"
+      ],
+      "sources": [
+        "https://www.indy.gov/activity/vendor-cart-licenses",
+        "https://www.indy.gov/activity/license-and-permit-fees",
+        "https://marionhealth.org/wp-content/uploads/2023/11/FAQ-Temp-Food-Establishment-Operations-112723.pdf"
+      ],
+      "lastVerified": "2026-02-03"
+    }
+  ]
+}

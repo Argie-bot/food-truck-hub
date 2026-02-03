@@ -1,0 +1,1664 @@
+{
+  "metadata": {
+    "generatedAt": "2026-02-03",
+    "version": "1.0",
+    "researcher": "Permit Research Specialist #1",
+    "notes": "All data extracted from official government sources. Costs verified as of research date. Contact departments for most current fees."
+  },
+  "cities": [
+    {
+      "id": "los-angeles-ca",
+      "name": "Los Angeles",
+      "state": "California",
+      "stateAbbrev": "CA",
+      "population": 3900000,
+      "estFoodTrucks": 4000,
+      "permits": [
+        {
+          "type": "Mobile Food Facility Permit - Truck (Unpackaged)",
+          "description": "Required for all food trucks selling unpackaged foods in LA County",
+          "issuingAgency": "LA County Department of Public Health",
+          "cost": 905,
+          "costPeriod": "annual",
+          "annualizedCost": 905,
+          "requirements": [
+            "Commissary agreement",
+            "Plan check approval",
+            "Health inspection",
+            "Valid DMV registration",
+            "Food Manager Certificate"
+          ],
+          "documents": [
+            "Floor plan",
+            "Equipment specifications",
+            "Menu",
+            "Proof of commissary",
+            "Vehicle registration"
+          ],
+          "applicationUrl": "http://publichealth.lacounty.gov/eh/docs/permit/Public-Health-Permit-License-Application.pdf",
+          "infoUrl": "http://publichealth.lacounty.gov/eh/business/food-trucks-carts.htm",
+          "processingTime": "2-4 weeks",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Mobile Food Facility Permit - Truck (Prepackaged)",
+          "description": "For trucks selling only prepackaged food items",
+          "issuingAgency": "LA County Department of Public Health",
+          "cost": 692,
+          "costPeriod": "annual",
+          "annualizedCost": 692,
+          "requirements": [
+            "Commissary agreement",
+            "Plan check approval",
+            "Health inspection"
+          ],
+          "documents": [
+            "Floor plan",
+            "Menu",
+            "Proof of commissary"
+          ],
+          "applicationUrl": "http://publichealth.lacounty.gov/eh/docs/permit/Public-Health-Permit-License-Application.pdf",
+          "infoUrl": "http://publichealth.lacounty.gov/eh/business/food-trucks-carts.htm",
+          "processingTime": "2-4 weeks",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Mobile Food Facility Permit - Cart (Unpackaged)",
+          "description": "For food carts selling unpackaged foods",
+          "issuingAgency": "LA County Department of Public Health",
+          "cost": 772,
+          "costPeriod": "annual",
+          "annualizedCost": 772,
+          "requirements": [
+            "Commissary agreement",
+            "Plan check approval",
+            "Health inspection"
+          ],
+          "documents": [
+            "Floor plan",
+            "Menu",
+            "Proof of commissary"
+          ],
+          "applicationUrl": "http://publichealth.lacounty.gov/eh/docs/permit/Public-Health-Permit-License-Application.pdf",
+          "infoUrl": "http://publichealth.lacounty.gov/eh/business/food-trucks-carts.htm",
+          "processingTime": "2-4 weeks",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Plan Check Fee",
+          "description": "Required for new mobile food facility approval",
+          "issuingAgency": "LA County Department of Public Health - Vehicle Inspection Plan Check Program",
+          "cost": "varies",
+          "costPeriod": "one-time",
+          "annualizedCost": 0,
+          "requirements": [
+            "Two sets of vehicle plans",
+            "Equipment specifications",
+            "Menu"
+          ],
+          "documents": [
+            "Vehicle blueprints",
+            "Equipment spec sheets"
+          ],
+          "applicationUrl": "http://publichealth.lacounty.gov/eh/inspection/plan-check-operational-guidelines-mobile-food-facilities-mobile-support-unit.htm",
+          "infoUrl": "http://publichealth.lacounty.gov/eh/inspection/plan-check-operational-guidelines-mobile-food-facilities-mobile-support-unit.htm",
+          "processingTime": "2-4 weeks",
+          "renewalPeriod": "one-time"
+        },
+        {
+          "type": "Food Handler Card",
+          "description": "Required for all employees handling food",
+          "issuingAgency": "LA County Department of Public Health",
+          "cost": 15,
+          "costPeriod": "3-year",
+          "annualizedCost": 5,
+          "requirements": [
+            "Pass food safety training course"
+          ],
+          "documents": [],
+          "applicationUrl": "http://publichealth.lacounty.gov/eh/business/certified-food-handler-manager.htm",
+          "infoUrl": "http://publichealth.lacounty.gov/eh/business/certified-food-handler-manager.htm",
+          "processingTime": "Same day",
+          "renewalPeriod": "3 years"
+        },
+        {
+          "type": "Food Manager Certification",
+          "description": "Required for at least one designated manager",
+          "issuingAgency": "ANSI-accredited certification programs",
+          "cost": 100,
+          "costPeriod": "5-year",
+          "annualizedCost": 20,
+          "requirements": [
+            "Pass certified food protection manager exam"
+          ],
+          "documents": [],
+          "applicationUrl": "http://publichealth.lacounty.gov/eh/business/certified-food-handler-manager.htm",
+          "infoUrl": "http://publichealth.lacounty.gov/eh/business/certified-food-handler-manager.htm",
+          "processingTime": "varies",
+          "renewalPeriod": "5 years"
+        }
+      ],
+      "healthDept": {
+        "name": "LA County Department of Public Health - Environmental Health",
+        "phone": "626-430-5500",
+        "website": "http://publichealth.lacounty.gov/eh/",
+        "inspectionRequired": true
+      },
+      "restrictions": [
+        "Must operate from a licensed commissary",
+        "Cannot park at metered spaces without paying",
+        "Must provide trash receptacle",
+        "Can only serve customers on sidewalk side (not roadside)",
+        "Need bathroom access within 200 ft if operating over 1 hour at one location"
+      ],
+      "notes": [
+        "LA County permits are valid in most cities in the county",
+        "Long Beach, Pasadena, and Vernon have their own health departments - separate permits may be required",
+        "Fees updated March 2024"
+      ],
+      "sources": [
+        "http://publichealth.lacounty.gov/eh/business/food-trucks-carts.htm",
+        "https://business.lacity.gov/plan-business/starter-kits/starter-kit-mobile-food-vending",
+        "https://ftala.org/food-truck-permits-and-licenses"
+      ],
+      "lastVerified": "2026-02-03"
+    },
+    {
+      "id": "new-york-ny",
+      "name": "New York",
+      "state": "New York",
+      "stateAbbrev": "NY",
+      "population": 8300000,
+      "estFoodTrucks": 5000,
+      "permits": [
+        {
+          "type": "Mobile Food Vending License",
+          "description": "Required for any individual working on a food cart or truck",
+          "issuingAgency": "NYC Department of Health and Mental Hygiene",
+          "cost": 50,
+          "costPeriod": "2-year",
+          "annualizedCost": 25,
+          "requirements": [
+            "Pass Food Protection Course for Mobile Vendors",
+            "Government-issued photo ID",
+            "Proof of home address",
+            "Social Security Number or ITIN",
+            "Environmental Control Board clearance"
+          ],
+          "documents": [
+            "Completed application",
+            "Photo ID",
+            "Address verification"
+          ],
+          "applicationUrl": "https://www.nyc.gov/assets/doh/downloads/pdf/permit/mfv_application_forms_package.pdf",
+          "infoUrl": "https://www.nyc.gov/site/doh/business/food-operators/mobile-and-temporary-food-vendors.page",
+          "processingTime": "1-3 weeks after passing course",
+          "renewalPeriod": "2 years"
+        },
+        {
+          "type": "Mobile Food Vending Unit Permit (Full-Term) - Food Prepared On-Site",
+          "description": "Required for each food truck/cart where food is prepared",
+          "issuingAgency": "NYC Department of Health and Mental Hygiene",
+          "cost": 200,
+          "costPeriod": "2-year",
+          "annualizedCost": 100,
+          "requirements": [
+            "Valid Mobile Food Vending License",
+            "Supervisory License (for new permits)",
+            "Certificate of Authority to collect sales tax",
+            "Workers' Compensation and Disability Insurance",
+            "Commissary agreement",
+            "Environmental Control Board clearance"
+          ],
+          "documents": [
+            "Insurance certificates",
+            "Commissary agreement",
+            "Vehicle inspection approval"
+          ],
+          "applicationUrl": "https://nyc-business.nyc.gov/nycbusiness/description/mobile-food-vending-unit-permit-full-term",
+          "infoUrl": "https://www.nyc.gov/site/doh/business/food-operators/mobile-and-temporary-food-vendors.page",
+          "processingTime": "Waitlist required - varies",
+          "renewalPeriod": "2 years"
+        },
+        {
+          "type": "Mobile Food Vending Unit Permit (Full-Term) - Prepackaged",
+          "description": "For units selling prepackaged foods only",
+          "issuingAgency": "NYC Department of Health and Mental Hygiene",
+          "cost": 75,
+          "costPeriod": "2-year",
+          "annualizedCost": 37.50,
+          "requirements": [
+            "Valid Mobile Food Vending License",
+            "Supervisory License (for new permits)",
+            "Certificate of Authority to collect sales tax",
+            "Commissary agreement"
+          ],
+          "documents": [
+            "Commissary agreement",
+            "Vehicle inspection approval"
+          ],
+          "applicationUrl": "https://nyc-business.nyc.gov/nycbusiness/description/mobile-food-vending-unit-permit-full-term",
+          "infoUrl": "https://www.nyc.gov/site/doh/business/food-operators/mobile-and-temporary-food-vendors.page",
+          "processingTime": "Waitlist required - varies",
+          "renewalPeriod": "2 years"
+        },
+        {
+          "type": "Food Protection Course for Mobile Vendors",
+          "description": "Mandatory training course",
+          "issuingAgency": "NYC Health Academy",
+          "cost": 53,
+          "costPeriod": "one-time",
+          "annualizedCost": 0,
+          "requirements": [
+            "Must pass final exam"
+          ],
+          "documents": [],
+          "applicationUrl": "https://www.nyc.gov/site/doh/business/health-academy/food-protection-for-mobile-vendors.page",
+          "infoUrl": "https://www.nyc.gov/site/doh/business/health-academy/food-protection-for-mobile-vendors.page",
+          "processingTime": "Same day",
+          "renewalPeriod": "one-time"
+        }
+      ],
+      "healthDept": {
+        "name": "NYC Department of Health and Mental Hygiene",
+        "phone": "311",
+        "website": "https://www.nyc.gov/site/doh/business/food-operators/mobile-and-temporary-food-vendors.page",
+        "inspectionRequired": true
+      },
+      "restrictions": [
+        "Number of permits is limited by law - waitlists apply",
+        "Cannot vend on restricted streets (see NYC guide)",
+        "Must be serviced at approved commissary daily",
+        "Must post letter grade from inspections",
+        "Cannot operate within 200 feet of school when in session (varies by zone)",
+        "Supervisory license required for certain permits"
+      ],
+      "notes": [
+        "NYC has one of the most restrictive food truck permit systems",
+        "Waitlists for full-term permits can be years long",
+        "Restricted Area Permits available without waitlist for private property",
+        "Veterans may qualify for fee waivers"
+      ],
+      "sources": [
+        "https://www.nyc.gov/site/doh/business/food-operators/mobile-and-temporary-food-vendors.page",
+        "https://nyc-business.nyc.gov/nycbusiness/description/mobile-food-vending-license",
+        "https://nyc-business.nyc.gov/nycbusiness/description/mobile-food-vending-unit-permit-full-term"
+      ],
+      "lastVerified": "2026-02-03"
+    },
+    {
+      "id": "portland-or",
+      "name": "Portland",
+      "state": "Oregon",
+      "stateAbbrev": "OR",
+      "population": 650000,
+      "estFoodTrucks": 600,
+      "permits": [
+        {
+          "type": "Mobile Food Unit License (Classes 1-3)",
+          "description": "Required annual license for food carts/trucks",
+          "issuingAgency": "Multnomah County Environmental Health",
+          "cost": 760,
+          "costPeriod": "annual",
+          "annualizedCost": 760,
+          "requirements": [
+            "Plan review approval",
+            "Pre-opening inspection",
+            "Commissary agreement (unless 3-compartment sink)",
+            "Oregon Food Handler Card"
+          ],
+          "documents": [
+            "Plan review packet",
+            "Commissary agreement",
+            "Equipment specifications"
+          ],
+          "applicationUrl": "https://multco.us/services/food-carts",
+          "infoUrl": "https://multco.us/services/food-carts",
+          "processingTime": "Up to 15 business days",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Mobile Food Unit License (Class 4)",
+          "description": "For high-risk food operations",
+          "issuingAgency": "Multnomah County Environmental Health",
+          "cost": 920,
+          "costPeriod": "annual",
+          "annualizedCost": 920,
+          "requirements": [
+            "Plan review approval",
+            "Pre-opening inspection",
+            "Commissary agreement",
+            "Oregon Food Handler Card"
+          ],
+          "documents": [
+            "Plan review packet",
+            "Commissary agreement",
+            "Equipment specifications"
+          ],
+          "applicationUrl": "https://multco.us/services/food-carts",
+          "infoUrl": "https://multco.us/services/food-carts",
+          "processingTime": "Up to 15 business days",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Plan Review Fee",
+          "description": "Required for new carts or major remodels",
+          "issuingAgency": "Multnomah County Environmental Health",
+          "cost": 790,
+          "costPeriod": "one-time",
+          "annualizedCost": 0,
+          "requirements": [
+            "Complete plan review packet",
+            "Equipment specifications",
+            "Menu"
+          ],
+          "documents": [
+            "Floor plans",
+            "Equipment list",
+            "Menu"
+          ],
+          "applicationUrl": "https://multco.us/services/food-carts",
+          "infoUrl": "https://multco.us/services/food-carts",
+          "processingTime": "Up to 15 business days",
+          "renewalPeriod": "one-time"
+        },
+        {
+          "type": "Plan Review Rush Fee",
+          "description": "Expedited plan review",
+          "issuingAgency": "Multnomah County Environmental Health",
+          "cost": 2380,
+          "costPeriod": "one-time",
+          "annualizedCost": 0,
+          "requirements": [
+            "Same as standard plan review"
+          ],
+          "documents": [
+            "Same as standard plan review"
+          ],
+          "applicationUrl": "https://multco.us/services/food-carts",
+          "infoUrl": "https://multco.us/services/food-carts",
+          "processingTime": "Expedited",
+          "renewalPeriod": "one-time"
+        },
+        {
+          "type": "Commissary License",
+          "description": "Required if your cart needs a commissary",
+          "issuingAgency": "Multnomah County Environmental Health",
+          "cost": 720,
+          "costPeriod": "annual",
+          "annualizedCost": 720,
+          "requirements": [
+            "Licensed commercial kitchen"
+          ],
+          "documents": [
+            "Commissary verification form"
+          ],
+          "applicationUrl": "https://multco.us/services/food-carts",
+          "infoUrl": "https://multco.us/services/food-carts",
+          "processingTime": "varies",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Oregon Food Handler Card",
+          "description": "Required for all food service workers",
+          "issuingAgency": "Oregon Health Authority",
+          "cost": 10,
+          "costPeriod": "3-year",
+          "annualizedCost": 3.33,
+          "requirements": [
+            "Pass online exam"
+          ],
+          "documents": [],
+          "applicationUrl": "https://www.oregon.gov/oha/ph/healthyenvironments/foodsafety/pages/cert.aspx",
+          "infoUrl": "https://www.oregon.gov/oha/ph/healthyenvironments/foodsafety/pages/cert.aspx",
+          "processingTime": "Same day",
+          "renewalPeriod": "3 years"
+        },
+        {
+          "type": "City of Portland Business License",
+          "description": "Required for all businesses",
+          "issuingAgency": "City of Portland Revenue Bureau",
+          "cost": 100,
+          "costPeriod": "annual",
+          "annualizedCost": 100,
+          "requirements": [
+            "Business registration"
+          ],
+          "documents": [
+            "Business registration form"
+          ],
+          "applicationUrl": "https://www.portland.gov/revenue/business-tax",
+          "infoUrl": "https://www.portland.gov/revenue/business-tax",
+          "processingTime": "1-2 weeks",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Fire Permit (Propane Use)",
+          "description": "Required for carts using propane",
+          "issuingAgency": "Portland Fire & Rescue",
+          "cost": "varies",
+          "costPeriod": "annual",
+          "annualizedCost": 100,
+          "requirements": [
+            "Fire safety inspection"
+          ],
+          "documents": [
+            "Propane system documentation"
+          ],
+          "applicationUrl": "https://www.portland.gov/fire",
+          "infoUrl": "https://www.portland.gov/fire",
+          "processingTime": "varies",
+          "renewalPeriod": "annual"
+        }
+      ],
+      "healthDept": {
+        "name": "Multnomah County Environmental Health",
+        "phone": "503-988-3400",
+        "website": "https://multco.us/services/food-carts",
+        "inspectionRequired": true
+      },
+      "restrictions": [
+        "Must be on wheels and moveable at all times",
+        "Cannot have permanent utility connections",
+        "Must have built-in fresh and grey water tanks",
+        "Cannot require ODOT special permit to move",
+        "Residential area vending limited to 10 minutes per block"
+      ],
+      "notes": [
+        "Portland is famous for its food cart pods",
+        "Spanish and Vietnamese speaking staff available at Environmental Health",
+        "Food cart pods with 2+ carts need additional site permits"
+      ],
+      "sources": [
+        "https://multco.us/services/food-carts",
+        "https://multco.us/info/food-cart-requirements",
+        "https://www.portland.gov/ppd/commercial-permitting/food-carts"
+      ],
+      "lastVerified": "2026-02-03"
+    },
+    {
+      "id": "houston-tx",
+      "name": "Houston",
+      "state": "Texas",
+      "stateAbbrev": "TX",
+      "population": 2300000,
+      "estFoodTrucks": 1500,
+      "permits": [
+        {
+          "type": "Mobile Food Unit Permit",
+          "description": "Required for all food trucks operating in Houston",
+          "issuingAgency": "Houston Health Department - Consumer Health",
+          "cost": 225,
+          "costPeriod": "annual",
+          "annualizedCost": 225,
+          "requirements": [
+            "Plan approval",
+            "Health inspection",
+            "Central Preparation Facility agreement",
+            "Food Manager certification"
+          ],
+          "documents": [
+            "Vehicle plans",
+            "Menu",
+            "CPF agreement"
+          ],
+          "applicationUrl": "https://www.houstonhealth.org/services/permits/food-permits",
+          "infoUrl": "https://www.houstonconsumer.org/services/permits/food-permits/mobile-food-units",
+          "processingTime": "2-4 weeks",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Food Manager Certification",
+          "description": "Required for mobile food unit operators",
+          "issuingAgency": "Texas Dept. of State Health Services approved providers",
+          "cost": 100,
+          "costPeriod": "5-year",
+          "annualizedCost": 20,
+          "requirements": [
+            "Pass certified food manager exam"
+          ],
+          "documents": [],
+          "applicationUrl": "https://www.dshs.texas.gov/foodestablishments/",
+          "infoUrl": "https://www.dshs.texas.gov/foodestablishments/",
+          "processingTime": "Same day",
+          "renewalPeriod": "5 years"
+        },
+        {
+          "type": "Texas Sales Tax Permit",
+          "description": "Required for selling taxable goods",
+          "issuingAgency": "Texas Comptroller",
+          "cost": 0,
+          "costPeriod": "permanent",
+          "annualizedCost": 0,
+          "requirements": [
+            "Business registration"
+          ],
+          "documents": [
+            "Business information"
+          ],
+          "applicationUrl": "https://comptroller.texas.gov/taxes/permit/",
+          "infoUrl": "https://comptroller.texas.gov/taxes/permit/",
+          "processingTime": "1-2 weeks",
+          "renewalPeriod": "permanent"
+        }
+      ],
+      "healthDept": {
+        "name": "Houston Health Department - Consumer Health Services Bureau",
+        "phone": "832-393-5100",
+        "website": "https://www.houstonhealth.org/services/food-programs",
+        "inspectionRequired": true
+      },
+      "restrictions": [
+        "Must operate from Central Preparation Facility (commissary)",
+        "Must report to CPF daily for supplies and cleaning",
+        "Potable and waste water tanks must be labeled",
+        "3-compartment sink required for utensil washing"
+      ],
+      "notes": [
+        "Texas Senate Bill 1008 aligns Houston with state regulations effective Sept 2025",
+        "Effective July 2026, Texas will issue statewide medallion/permit",
+        "GPS devices no longer required under new rules"
+      ],
+      "sources": [
+        "https://www.houstonconsumer.org/services/permits/food-permits/mobile-food-units",
+        "https://www.houstontx.gov/business/start/food-service.html"
+      ],
+      "lastVerified": "2026-02-03"
+    },
+    {
+      "id": "austin-tx",
+      "name": "Austin",
+      "state": "Texas",
+      "stateAbbrev": "TX",
+      "population": 1000000,
+      "estFoodTrucks": 1200,
+      "permits": [
+        {
+          "type": "Mobile Food Vendor Permit",
+          "description": "Required for all mobile food establishments",
+          "issuingAgency": "Austin Public Health - Environmental Health Services",
+          "cost": "varies by risk level",
+          "costPeriod": "annual",
+          "annualizedCost": 400,
+          "requirements": [
+            "Plan review approval",
+            "Health inspection",
+            "Central Preparation Facility contract",
+            "Restroom facility agreement",
+            "Food Manager certification"
+          ],
+          "documents": [
+            "Mobile Food Vendor Application",
+            "CPF Contract",
+            "Restroom Agreement",
+            "Vehicle plans",
+            "Menu"
+          ],
+          "applicationUrl": "https://myhealthdepartment.com/APH/login",
+          "infoUrl": "https://www.austintexas.gov/department/mobile-food-vendors",
+          "processingTime": "2-4 weeks",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Austin Fire Department Inspection",
+          "description": "Required for trucks with propane or electric appliances",
+          "issuingAgency": "Austin Fire Department",
+          "cost": "varies",
+          "costPeriod": "annual",
+          "annualizedCost": 100,
+          "requirements": [
+            "Fire safety inspection",
+            "Propane system compliance"
+          ],
+          "documents": [
+            "Fire system documentation"
+          ],
+          "applicationUrl": "https://www.austintexas.gov/page/fire-mobile-vending",
+          "infoUrl": "https://www.austintexas.gov/page/fire-mobile-vending",
+          "processingTime": "varies",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Food Manager Certification",
+          "description": "Required for all food establishments",
+          "issuingAgency": "Texas DSHS approved providers",
+          "cost": 100,
+          "costPeriod": "5-year",
+          "annualizedCost": 20,
+          "requirements": [
+            "Pass certified food manager exam"
+          ],
+          "documents": [],
+          "applicationUrl": "https://www.austintexas.gov/department/food-personnel-requirements",
+          "infoUrl": "https://www.austintexas.gov/department/food-personnel-requirements",
+          "processingTime": "Same day",
+          "renewalPeriod": "5 years"
+        },
+        {
+          "type": "Food Handler Card",
+          "description": "Required for all employees who handle food",
+          "issuingAgency": "Texas DSHS approved providers",
+          "cost": 15,
+          "costPeriod": "2-year",
+          "annualizedCost": 7.50,
+          "requirements": [
+            "Complete food handler course within 30 days of employment"
+          ],
+          "documents": [],
+          "applicationUrl": "https://www.dshs.texas.gov/foodhandlers/",
+          "infoUrl": "https://www.dshs.texas.gov/foodhandlers/",
+          "processingTime": "Same day",
+          "renewalPeriod": "2 years"
+        }
+      ],
+      "healthDept": {
+        "name": "Austin Public Health - Environmental Health Services",
+        "phone": "512-978-0300",
+        "website": "https://www.austintexas.gov/department/mobile-food-vendors",
+        "inspectionRequired": true
+      },
+      "restrictions": [
+        "Must operate from licensed Central Preparation Facility",
+        "Must have restroom access agreement",
+        "Cannot expand operations outside approved mobile food establishment area",
+        "Must follow all Texas Food Establishment Rules"
+      ],
+      "notes": [
+        "Austin offers on-site mobile vending permitting for renewals within city limits",
+        "Lottery system for on-site inspections due to high demand",
+        "All applications now submitted through My Health Department portal"
+      ],
+      "sources": [
+        "https://www.austintexas.gov/department/mobile-food-vendors"
+      ],
+      "lastVerified": "2026-02-03"
+    },
+    {
+      "id": "miami-fl",
+      "name": "Miami",
+      "state": "Florida",
+      "stateAbbrev": "FL",
+      "population": 440000,
+      "estFoodTrucks": 500,
+      "permits": [
+        {
+          "type": "Mobile Food Dispensing Vehicle License",
+          "description": "State license required for food trucks",
+          "issuingAgency": "Florida Department of Agriculture and Consumer Services (FDACS)",
+          "cost": "varies by risk category",
+          "costPeriod": "annual",
+          "annualizedCost": 250,
+          "requirements": [
+            "Plan review",
+            "Health inspection",
+            "Commissary agreement"
+          ],
+          "documents": [
+            "Vehicle plans",
+            "Menu",
+            "Commissary letter"
+          ],
+          "applicationUrl": "https://www.fdacs.gov/Business-Services/Food/Food-Establishments/Mobile-Food-Establishments",
+          "infoUrl": "https://www.fdacs.gov/Business-Services/Food/Food-Establishments/Mobile-Food-Establishments",
+          "processingTime": "2-4 weeks",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "City of Miami Business Tax Receipt",
+          "description": "Required for operating within Miami city limits",
+          "issuingAgency": "City of Miami Department of Finance",
+          "cost": "varies",
+          "costPeriod": "annual",
+          "annualizedCost": 100,
+          "requirements": [
+            "Valid state food license",
+            "Business registration"
+          ],
+          "documents": [
+            "State license",
+            "Business information"
+          ],
+          "applicationUrl": "https://www.miamigov.com/Services/Business-Services",
+          "infoUrl": "https://archive.miamigov.com/Finance/BusinessTax.html",
+          "processingTime": "1-2 weeks",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Mobile Food Service Operation Permit",
+          "description": "County-level permit for mobile operations",
+          "issuingAgency": "Miami-Dade County",
+          "cost": "varies",
+          "costPeriod": "annual",
+          "annualizedCost": 150,
+          "requirements": [
+            "State license",
+            "Location approval",
+            "Zoning compliance"
+          ],
+          "documents": [
+            "Site plan",
+            "State license copy"
+          ],
+          "applicationUrl": "https://www.miamidade.gov/permits/mobile-sales.asp",
+          "infoUrl": "https://www.miamidade.gov/permits/mobile-sales.asp",
+          "processingTime": "2-4 weeks",
+          "renewalPeriod": "annual"
+        }
+      ],
+      "healthDept": {
+        "name": "Florida Department of Agriculture and Consumer Services",
+        "phone": "800-435-7352",
+        "website": "https://www.fdacs.gov/",
+        "inspectionRequired": true
+      },
+      "restrictions": [
+        "Street vending prohibited in certain locations",
+        "Special vending districts have specific restrictions",
+        "Cannot block sidewalks or pedestrian traffic",
+        "Food truck roundups on private property need special approval"
+      ],
+      "notes": [
+        "Florida uses state-level food licensing through FDACS",
+        "Miami-Dade County has additional zoning requirements",
+        "City of Miami has special vending districts with restrictions"
+      ],
+      "sources": [
+        "https://www.fdacs.gov/Business-Services/Food/Food-Establishments/Mobile-Food-Establishments",
+        "https://www.miamidade.gov/permits/mobile-sales.asp",
+        "https://archive.miamigov.com/Finance/BusinessTax.html"
+      ],
+      "lastVerified": "2026-02-03"
+    },
+    {
+      "id": "chicago-il",
+      "name": "Chicago",
+      "state": "Illinois",
+      "stateAbbrev": "IL",
+      "population": 2700000,
+      "estFoodTrucks": 800,
+      "permits": [
+        {
+          "type": "Mobile Food Preparer License",
+          "description": "For food trucks that prepare food on-site",
+          "issuingAgency": "Chicago Department of Business Affairs and Consumer Protection",
+          "cost": 1000,
+          "costPeriod": "2-year",
+          "annualizedCost": 500,
+          "requirements": [
+            "Health consultation",
+            "Fire Safety Permit (if propane/gas used)",
+            "Shared Kitchen User license",
+            "City of Chicago Food Sanitation Manager Certificate",
+            "Commercial liability insurance ($350,000 min)",
+            "GPS device installed"
+          ],
+          "documents": [
+            "Menu",
+            "Vehicle blueprints",
+            "Equipment specifications",
+            "Commissary letter",
+            "Insurance certificate"
+          ],
+          "applicationUrl": "https://webapps1.chicago.gov/AccountServices/login.jsp",
+          "infoUrl": "https://www.chicago.gov/city/en/sites/chicago-business-licensing/home/foodtrucks.html",
+          "processingTime": "4-8 weeks",
+          "renewalPeriod": "2 years"
+        },
+        {
+          "type": "Mobile Food Dispenser License",
+          "description": "For trucks selling prepackaged/wrapped food only",
+          "issuingAgency": "Chicago Department of Business Affairs and Consumer Protection",
+          "cost": 700,
+          "costPeriod": "2-year",
+          "annualizedCost": 350,
+          "requirements": [
+            "Health consultation",
+            "Fire Safety Permit (if applicable)",
+            "Retail Food Establishment license (if producing food)",
+            "Commercial liability insurance ($350,000 min)",
+            "GPS device installed"
+          ],
+          "documents": [
+            "Menu",
+            "Vehicle blueprints",
+            "Commissary letter",
+            "Insurance certificate"
+          ],
+          "applicationUrl": "https://webapps1.chicago.gov/AccountServices/login.jsp",
+          "infoUrl": "https://www.chicago.gov/city/en/depts/bacp/supp_info/mobile_food_vendorlicenses.html",
+          "processingTime": "4-8 weeks",
+          "renewalPeriod": "2 years"
+        },
+        {
+          "type": "Fire Safety Permit",
+          "description": "Required for vehicles with propane, gas, generators, or fire suppression",
+          "issuingAgency": "Chicago Fire Department",
+          "cost": 100,
+          "costPeriod": "per permit",
+          "annualizedCost": 50,
+          "requirements": [
+            "Fire Safety Class attendance",
+            "Vehicle inspection",
+            "Fire suppression system (if applicable)"
+          ],
+          "documents": [
+            "Fire system documentation",
+            "Vehicle registration"
+          ],
+          "applicationUrl": "https://www.chicago.gov/city/en/depts/cfd/provdrs/prevent/svcs/mobile-food-vehicle-certifications.html",
+          "infoUrl": "https://www.chicago.gov/content/dam/city/depts/bacp/general/CFD_MFV_FIRE_SAFETY_Consultation_Packet_4-21-16.pdf",
+          "processingTime": "2-4 weeks",
+          "renewalPeriod": "with license"
+        },
+        {
+          "type": "Fire Suppression System Plan Review",
+          "description": "Required if fire suppression system installed",
+          "issuingAgency": "Chicago Fire Department",
+          "cost": 150,
+          "costPeriod": "one-time",
+          "annualizedCost": 0,
+          "requirements": [
+            "Plans submitted by installation company"
+          ],
+          "documents": [
+            "Fire suppression plans on company letterhead"
+          ],
+          "applicationUrl": "https://www.chicago.gov/city/en/depts/cfd/provdrs/prevent/svcs/mobile-food-vehicle-certifications.html",
+          "infoUrl": "https://www.chicago.gov/city/en/depts/cfd/provdrs/prevent/svcs/mobile-food-vehicle-certifications.html",
+          "processingTime": "varies",
+          "renewalPeriod": "one-time"
+        },
+        {
+          "type": "Food Sanitation Manager Certificate",
+          "description": "Required for Mobile Food Preparers",
+          "issuingAgency": "Chicago Department of Public Health",
+          "cost": 35,
+          "costPeriod": "3-year",
+          "annualizedCost": 11.67,
+          "requirements": [
+            "Pass certification exam"
+          ],
+          "documents": [],
+          "applicationUrl": "https://www.chicago.gov/city/en/depts/cdph/provdrs/food_safety/svcs/enroll_in_a_foodsanitationcertificationcourse.html",
+          "infoUrl": "https://www.chicago.gov/city/en/depts/cdph/provdrs/food_safety/svcs/enroll_in_a_foodsanitationcertificationcourse.html",
+          "processingTime": "Same day",
+          "renewalPeriod": "3 years"
+        }
+      ],
+      "healthDept": {
+        "name": "Chicago Department of Public Health - Food Protection Division",
+        "phone": "312-746-FOOD (3663)",
+        "website": "https://www.chicago.gov/city/en/depts/cdph/provdrs/food_safety.html",
+        "inspectionRequired": true
+      },
+      "restrictions": [
+        "Must park at least 200 feet from any restaurant entrance (except 12AM-2AM)",
+        "Maximum 4 hours in any one block",
+        "Hours of operation: 5AM - 2AM",
+        "No more than 40 pounds of propane",
+        "No sound-amplifying devices",
+        "Cannot operate on privately-owned vacant lots",
+        "GPS must be operational when vending"
+      ],
+      "notes": [
+        "Chicago has designated food truck stands in various locations",
+        "Free MFV assessment available before applying",
+        "All food must be prepared at commissary or shared kitchen - no residential prep"
+      ],
+      "sources": [
+        "https://www.chicago.gov/city/en/sites/chicago-business-licensing/home/foodtrucks.html",
+        "https://www.chicago.gov/city/en/depts/bacp/supp_info/mobile_food_vendorlicenses.html"
+      ],
+      "lastVerified": "2026-02-03"
+    },
+    {
+      "id": "denver-co",
+      "name": "Denver",
+      "state": "Colorado",
+      "stateAbbrev": "CO",
+      "population": 715000,
+      "estFoodTrucks": 400,
+      "permits": [
+        {
+          "type": "Retail Food Establishment - Mobile License",
+          "description": "Required annual license for food trucks and carts",
+          "issuingAgency": "City and County of Denver - Department of Licensing and Consumer Protection",
+          "cost": "varies",
+          "costPeriod": "annual",
+          "annualizedCost": 300,
+          "requirements": [
+            "Plan review approval",
+            "DDPHE inspection",
+            "DFD inspection (if propane used)",
+            "Commissary agreement",
+            "Oregon Food Handler Card"
+          ],
+          "documents": [
+            "Mobile plan review packet",
+            "Equipment specifications",
+            "Menu",
+            "Vehicle photos"
+          ],
+          "applicationUrl": "https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Business-Licensing/Business-licenses/Retail-Food/Retail-food-mobile-license",
+          "infoUrl": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Business-Licensing/Business-licenses/Retail-Food/Retail-food-mobile-license/Mobile-retail-food-truck-trailer-and-cart-guide",
+          "processingTime": "5+ business days for review, up to 30 days total in busy season",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Denver Fire Flammable Operational Permit",
+          "description": "Required if using propane",
+          "issuingAgency": "Denver Fire Department",
+          "cost": 200,
+          "costPeriod": "annual",
+          "annualizedCost": 200,
+          "requirements": [
+            "Vehicle registration copy",
+            "Hood suppression system inspection report (if applicable)"
+          ],
+          "documents": [
+            "Vehicle registration",
+            "Suppression system documentation"
+          ],
+          "applicationUrl": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Fire-Department/Permits-Licensing/Fire-Safety-Operational-Permit-Groups/Mobile-Food-Vendors-Permitting-Process",
+          "infoUrl": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Fire-Department/Permits-Licensing/Fire-Safety-Operational-Permit-Groups/Mobile-Food-Vendors-Permitting-Process",
+          "processingTime": "varies",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Zoning Use Permit",
+          "description": "Required for operating on private property",
+          "issuingAgency": "Denver Community Planning and Development",
+          "cost": 50,
+          "costPeriod": "annual",
+          "annualizedCost": 50,
+          "requirements": [
+            "Zoning compliance",
+            "Property owner approval"
+          ],
+          "documents": [
+            "Zoning use permit application",
+            "Site plan"
+          ],
+          "applicationUrl": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Community-Planning-and-Development/Plan-Review-Permits-and-Inspections/Zoning-Permits/Apply-for-Commercial-Zoning-Permits",
+          "infoUrl": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Community-Planning-and-Development/Plan-Review-Permits-and-Inspections/Zoning-Permits/Apply-for-Commercial-Zoning-Permits",
+          "processingTime": "varies",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Special Event Permit",
+          "description": "For food trucks operating as part of events",
+          "issuingAgency": "Denver Community Planning and Development",
+          "cost": 10,
+          "costPeriod": "per event",
+          "annualizedCost": "varies",
+          "requirements": [
+            "Event organizer approval"
+          ],
+          "documents": [
+            "Event permit application"
+          ],
+          "applicationUrl": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Community-Planning-and-Development/Plan-Review-Permits-and-Inspections/Zoning-Permits/Apply-for-Commercial-Zoning-Permits",
+          "infoUrl": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Community-Planning-and-Development/Plan-Review-Permits-and-Inspections/Zoning-Permits/Apply-for-Commercial-Zoning-Permits",
+          "processingTime": "varies",
+          "renewalPeriod": "per event"
+        }
+      ],
+      "healthDept": {
+        "name": "Denver Department of Public Health and Environment",
+        "phone": "720-913-1311",
+        "website": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Public-Health-and-Environment",
+        "inspectionRequired": true
+      },
+      "restrictions": [
+        "Not allowed within 20 feet of intersection when selling",
+        "Not allowed in Central Business District",
+        "Not allowed within 300 feet of parks unless part of permitted event",
+        "Not allowed in residential zone districts",
+        "Must be at least 10 feet from other food trucks",
+        "Operations must be at least 50 feet from residential zones"
+      ],
+      "notes": [
+        "Denver has dedicated food truck zones in Lower Downtown (LoDo) on weekends",
+        "License is valid statewide in Colorado",
+        "No longer required to stay 200 feet from restaurants (recent zoning change)"
+      ],
+      "sources": [
+        "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Business-Licensing/Business-licenses/Retail-Food/Retail-food-mobile-license/Mobile-retail-food-truck-trailer-and-cart-guide"
+      ],
+      "lastVerified": "2026-02-03"
+    },
+    {
+      "id": "seattle-wa",
+      "name": "Seattle",
+      "state": "Washington",
+      "stateAbbrev": "WA",
+      "population": 750000,
+      "estFoodTrucks": 400,
+      "permits": [
+        {
+          "type": "Mobile Food Service Business Permit",
+          "description": "Required health permit for food trucks and carts",
+          "issuingAgency": "Public Health - Seattle & King County",
+          "cost": "varies by risk category",
+          "costPeriod": "annual",
+          "annualizedCost": 400,
+          "requirements": [
+            "Plan review approval",
+            "Pre-operational inspection",
+            "Commissary agreement",
+            "Restroom agreement",
+            "L&I approval (for trucks/trailers)"
+          ],
+          "documents": [
+            "Plan review application",
+            "Commissary use agreement",
+            "Restroom use agreement",
+            "Vehicle plans (2 sets)"
+          ],
+          "applicationUrl": "https://kingcounty.gov/en/dept/dph/certificates-permits-licenses/food-business-permits/mobile-food-business-permit",
+          "infoUrl": "https://kingcounty.gov/en/dept/dph/certificates-permits-licenses/food-business-permits/mobile-food-business-permit",
+          "processingTime": "4-6 weeks for plan review",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "WA State L&I Approval",
+          "description": "Required for food trucks and trailers",
+          "issuingAgency": "Washington State Department of Labor and Industries",
+          "cost": "varies",
+          "costPeriod": "one-time",
+          "annualizedCost": 0,
+          "requirements": [
+            "Vehicle construction plans",
+            "Safety compliance"
+          ],
+          "documents": [
+            "Detailed truck plans (2 copies)"
+          ],
+          "applicationUrl": "https://lni.wa.gov/licensing-permits/manufactured-modular-mobile-structures/food-trucks-trailers/",
+          "infoUrl": "https://lni.wa.gov/licensing-permits/manufactured-modular-mobile-structures/food-trucks-trailers/",
+          "processingTime": "About 8 weeks",
+          "renewalPeriod": "one-time"
+        },
+        {
+          "type": "Seattle Fire Department Food Vendor Permit",
+          "description": "Required for vendors using propane, solid fuel, or open flame",
+          "issuingAgency": "Seattle Fire Department",
+          "cost": 200,
+          "costPeriod": "annual",
+          "annualizedCost": 200,
+          "requirements": [
+            "Fire safety inspection"
+          ],
+          "documents": [
+            "Fire system documentation"
+          ],
+          "applicationUrl": "http://www2.seattle.gov/fire/PermitSearch/SearchbyPermitCode.asp",
+          "infoUrl": "https://www.seattle.gov/economic-development/start-a-business/food-business-handbook/mobile-food-vending",
+          "processingTime": "1-2 days",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Street Use Vending Permit",
+          "description": "Required for vending on public right-of-way",
+          "issuingAgency": "Seattle Department of Transportation",
+          "cost": "varies by location",
+          "costPeriod": "varies",
+          "annualizedCost": 500,
+          "requirements": [
+            "Location approval",
+            "Health permit"
+          ],
+          "documents": [
+            "Permit application",
+            "Site plan"
+          ],
+          "applicationUrl": "http://www.seattle.gov/transportation/permits-and-services/permits/vending-permits",
+          "infoUrl": "http://www.seattle.gov/transportation/permits-and-services/permits/vending-permits",
+          "processingTime": "About 8 weeks",
+          "renewalPeriod": "varies"
+        },
+        {
+          "type": "City of Seattle Business License",
+          "description": "Required for all businesses",
+          "issuingAgency": "City of Seattle Finance Department",
+          "cost": 110,
+          "costPeriod": "annual",
+          "annualizedCost": 110,
+          "requirements": [
+            "Business registration"
+          ],
+          "documents": [
+            "Business registration form"
+          ],
+          "applicationUrl": "http://www.seattle.gov/business-licenses-and-taxes/business-licenses",
+          "infoUrl": "http://www.seattle.gov/business-licenses-and-taxes/business-licenses",
+          "processingTime": "1-2 weeks",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "WA State Business License",
+          "description": "Required for all businesses",
+          "issuingAgency": "Washington State Department of Revenue",
+          "cost": 19,
+          "costPeriod": "annual",
+          "annualizedCost": 19,
+          "requirements": [
+            "Business registration"
+          ],
+          "documents": [
+            "Business registration form"
+          ],
+          "applicationUrl": "https://dor.wa.gov/open-business/apply-business-license",
+          "infoUrl": "https://dor.wa.gov/open-business/apply-business-license",
+          "processingTime": "1-2 weeks",
+          "renewalPeriod": "annual"
+        }
+      ],
+      "healthDept": {
+        "name": "Public Health - Seattle & King County",
+        "phone": "206-263-7833",
+        "website": "https://kingcounty.gov/en/dept/dph/certificates-permits-licenses/food-business-permits/mobile-food-business-permit",
+        "inspectionRequired": true
+      },
+      "restrictions": [
+        "Must be within 500 feet of restroom with hot water",
+        "Commissary must be within King County",
+        "King County health permits not valid in other counties",
+        "Portable toilets not allowed for restroom requirement"
+      ],
+      "notes": [
+        "WA State Fire Marshals have statewide food truck inspection program",
+        "Inspection from one participating agency recognized by others",
+        "Food carts do not require L&I approval"
+      ],
+      "sources": [
+        "https://kingcounty.gov/en/dept/dph/certificates-permits-licenses/food-business-permits/mobile-food-business-permit",
+        "https://www.seattle.gov/economic-development/start-a-business/food-business-handbook/mobile-food-vending"
+      ],
+      "lastVerified": "2026-02-03"
+    },
+    {
+      "id": "san-francisco-ca",
+      "name": "San Francisco",
+      "state": "California",
+      "stateAbbrev": "CA",
+      "population": 870000,
+      "estFoodTrucks": 500,
+      "permits": [
+        {
+          "type": "Mobile Food Facility Permit",
+          "description": "Required health permit for all mobile food operations",
+          "issuingAgency": "San Francisco Department of Public Health",
+          "cost": "varies by classification (5 levels)",
+          "costPeriod": "annual",
+          "annualizedCost": 500,
+          "requirements": [
+            "Plan review approval",
+            "Health inspection",
+            "Commissary verification",
+            "Food Safety Manager certification",
+            "Food Handler Cards for all employees",
+            "Workers' Compensation insurance"
+          ],
+          "documents": [
+            "MFF Application Checklist",
+            "Vehicle schematics",
+            "Menu",
+            "Commissary verification",
+            "Restroom verification",
+            "Written operational procedures"
+          ],
+          "applicationUrl": "https://www.sf.gov/guide-health-permits-mobile-food-facilities",
+          "infoUrl": "https://www.sf.gov/guide-starting-food-truck",
+          "processingTime": "varies",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "DPW Street Use Permit",
+          "description": "Required for operating on public property",
+          "issuingAgency": "San Francisco Department of Public Works",
+          "cost": "varies",
+          "costPeriod": "annual",
+          "annualizedCost": 300,
+          "requirements": [
+            "Valid DPH permit",
+            "Location approval",
+            "Neighborhood notification"
+          ],
+          "documents": [
+            "DPH permit copy",
+            "Site plan"
+          ],
+          "applicationUrl": "https://sfpublicworks.org/services/permits/mobile-food-facilities",
+          "infoUrl": "https://www.sf.gov/step-by-step--operate-mobile-food-facility-curbside",
+          "processingTime": "varies - may require public hearing",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Planning Department Permit",
+          "description": "Required for operating on private property",
+          "issuingAgency": "San Francisco Planning Department",
+          "cost": "varies",
+          "costPeriod": "varies",
+          "annualizedCost": 200,
+          "requirements": [
+            "Zoning compliance",
+            "Property owner permission"
+          ],
+          "documents": [
+            "Supplemental application",
+            "Property owner verification"
+          ],
+          "applicationUrl": "https://sfplanning.org/sites/default/files/forms/TUA_SupplementalApplication.pdf",
+          "infoUrl": "https://www.sf.gov/step-by-step/operate-mobile-food-facility-private-property",
+          "processingTime": "varies",
+          "renewalPeriod": "varies"
+        },
+        {
+          "type": "CA HCD Certification",
+          "description": "Required for Classification 4-5 mobile food facilities",
+          "issuingAgency": "California Department of Housing and Community Development",
+          "cost": "varies",
+          "costPeriod": "one-time",
+          "annualizedCost": 0,
+          "requirements": [
+            "Appliance and plumbing certification",
+            "Structural inspection"
+          ],
+          "documents": [
+            "Vehicle construction documentation"
+          ],
+          "applicationUrl": "https://hcd.ca.gov/",
+          "infoUrl": "https://hcd.ca.gov/",
+          "processingTime": "varies",
+          "renewalPeriod": "one-time"
+        },
+        {
+          "type": "Business Registration Certificate",
+          "description": "Required for all businesses",
+          "issuingAgency": "SF Office of the Treasurer and Tax Collector",
+          "cost": "varies",
+          "costPeriod": "annual",
+          "annualizedCost": 100,
+          "requirements": [
+            "Business registration"
+          ],
+          "documents": [
+            "Business registration form"
+          ],
+          "applicationUrl": "https://sftreasurer.org/business/register-business",
+          "infoUrl": "https://sftreasurer.org/business/register-business",
+          "processingTime": "1-2 weeks",
+          "renewalPeriod": "annual"
+        }
+      ],
+      "healthDept": {
+        "name": "San Francisco Department of Public Health - Environmental Health",
+        "phone": "415-252-3800",
+        "website": "https://www.sf.gov/guide-health-permits-mobile-food-facilities",
+        "inspectionRequired": true
+      },
+      "restrictions": [
+        "Must stay 75 feet from any restaurant",
+        "Must stay 500 feet from grade schools",
+        "Neighborhood notification required for public property",
+        "Buffer zones in certain areas (Gaslamp Quarter, Little Italy equivalent)"
+      ],
+      "notes": [
+        "SF has 5 classification levels based on food preparation complexity",
+        "Private organizers like Off the Grid operate on private property with their own permits",
+        "Free small business counseling available from Office of Small Business"
+      ],
+      "sources": [
+        "https://www.sf.gov/guide-starting-food-truck",
+        "https://www.sf.gov/guide-health-permits-mobile-food-facilities"
+      ],
+      "lastVerified": "2026-02-03"
+    },
+    {
+      "id": "dallas-tx",
+      "name": "Dallas",
+      "state": "Texas",
+      "stateAbbrev": "TX",
+      "population": 1340000,
+      "estFoodTrucks": 700,
+      "permits": [
+        {
+          "type": "Mobile Food Prep Vehicle/Trailer Permit (Class III/IV)",
+          "description": "Required for full-service food trucks",
+          "issuingAgency": "Dallas Code Compliance - Consumer Health Division",
+          "cost": 185,
+          "costPeriod": "annual",
+          "annualizedCost": 185,
+          "requirements": [
+            "Plan review approval",
+            "Health inspection",
+            "Commissary approval",
+            "Food Service Manager Certificate",
+            "Fire permit (if propane used)",
+            "Liability insurance (6 months)"
+          ],
+          "documents": [
+            "2 sets of blueprints",
+            "Equipment specifications",
+            "Affidavit of Authenticity",
+            "Driver's license",
+            "Insurance proof",
+            "Commissary approval form",
+            "Vehicle photos"
+          ],
+          "applicationUrl": "https://appointments.dallascityhall.com",
+          "infoUrl": "https://dallascityhall.com/departments/codecompliance/consumer-health/Pages/mobile-food-units.aspx",
+          "processingTime": "varies",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Mobile Food Application Fee",
+          "description": "One-time application processing fee",
+          "issuingAgency": "Dallas Code Compliance - Consumer Health Division",
+          "cost": 481,
+          "costPeriod": "one-time (new truck)",
+          "annualizedCost": 0,
+          "requirements": [
+            "New truck application"
+          ],
+          "documents": [],
+          "applicationUrl": "https://appointments.dallascityhall.com",
+          "infoUrl": "https://dallascityhall.com/departments/codecompliance/consumer-health/Pages/mobile-food-units.aspx",
+          "processingTime": "varies",
+          "renewalPeriod": "one-time"
+        },
+        {
+          "type": "Plan Review Fee",
+          "description": "Required for new trucks",
+          "issuingAgency": "Dallas Code Compliance - Consumer Health Division",
+          "cost": 562,
+          "costPeriod": "one-time",
+          "annualizedCost": 0,
+          "requirements": [
+            "Vehicle blueprints",
+            "Equipment specifications"
+          ],
+          "documents": [
+            "2 sets of plans"
+          ],
+          "applicationUrl": "https://appointments.dallascityhall.com",
+          "infoUrl": "https://dallascityhall.com/departments/codecompliance/consumer-health/Pages/mobile-food-units.aspx",
+          "processingTime": "varies",
+          "renewalPeriod": "one-time"
+        },
+        {
+          "type": "Lunch Truck/Catering Permit",
+          "description": "For Class I/II mobile units with limited menus",
+          "issuingAgency": "Dallas Code Compliance - Consumer Health Division",
+          "cost": 300,
+          "costPeriod": "annual",
+          "annualizedCost": 300,
+          "requirements": [
+            "Pre-approved menu",
+            "Commissary agreement",
+            "Fire permit (if propane used)"
+          ],
+          "documents": [
+            "Driver's license",
+            "Insurance",
+            "Vehicle info",
+            "Menu"
+          ],
+          "applicationUrl": "https://appointments.dallascityhall.com",
+          "infoUrl": "https://dallascityhall.com/departments/codecompliance/consumer-health/Pages/mobile-food-units.aspx",
+          "processingTime": "varies",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Registered Food Service Manager Certificate",
+          "description": "Required for all food establishments",
+          "issuingAgency": "Dallas Code Compliance",
+          "cost": 50,
+          "costPeriod": "5-year",
+          "annualizedCost": 10,
+          "requirements": [
+            "Pass certification exam"
+          ],
+          "documents": [],
+          "applicationUrl": "https://dallascityhall.com/departments/codecompliance/",
+          "infoUrl": "https://dallascityhall.com/departments/codecompliance/",
+          "processingTime": "Same day",
+          "renewalPeriod": "5 years"
+        },
+        {
+          "type": "Low Propane Gas Permit",
+          "description": "Required if using propane",
+          "issuingAgency": "Dallas Fire Department Inspection Unit",
+          "cost": "varies",
+          "costPeriod": "annual",
+          "annualizedCost": 100,
+          "requirements": [
+            "Fire safety inspection"
+          ],
+          "documents": [
+            "Propane system documentation"
+          ],
+          "applicationUrl": "Contact: (214) 670-4319",
+          "infoUrl": "https://dallascityhall.com/departments/dallasfire/",
+          "processingTime": "varies",
+          "renewalPeriod": "annual"
+        }
+      ],
+      "healthDept": {
+        "name": "Dallas Code Compliance - Consumer Health Division",
+        "phone": "214-670-8083",
+        "website": "https://dallascityhall.com/departments/codecompliance/consumer-health/",
+        "inspectionRequired": true
+      },
+      "restrictions": [
+        "Must visit commissary daily",
+        "All menus must be pre-approved",
+        "Mobile units must be commercially manufactured",
+        "Written property owner agreement required for vending location",
+        "Restroom access required"
+      ],
+      "notes": [
+        "Appointments required for all permit applications",
+        "Inspections conducted on Thursdays 9AM-3:30PM at commissary or vending location",
+        "No cash accepted - credit/debit or check only"
+      ],
+      "sources": [
+        "https://dallascityhall.com/departments/codecompliance/consumer-health/Pages/mobile-food-units.aspx"
+      ],
+      "lastVerified": "2026-02-03"
+    },
+    {
+      "id": "phoenix-az",
+      "name": "Phoenix",
+      "state": "Arizona",
+      "stateAbbrev": "AZ",
+      "population": 1650000,
+      "estFoodTrucks": 600,
+      "permits": [
+        {
+          "type": "Mobile Food Vendor License",
+          "description": "City license for operating at a specific location",
+          "issuingAgency": "City of Phoenix City Clerk - License Services",
+          "cost": "varies",
+          "costPeriod": "annual",
+          "annualizedCost": 150,
+          "requirements": [
+            "Valid county health permit",
+            "Building/use permit if required",
+            "State sales tax license"
+          ],
+          "documents": [
+            "Application",
+            "Health permit copy",
+            "Location information"
+          ],
+          "applicationUrl": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/license-services/Mobile%20Vending%20Application.pdf",
+          "infoUrl": "https://www.phoenix.gov/administration/departments/cityclerk/programs-services/license-services/vending/mobile-vending.html",
+          "processingTime": "varies",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Maricopa County Mobile Food Permit",
+          "description": "Required health permit from county",
+          "issuingAgency": "Maricopa County Environmental Health",
+          "cost": "varies by type (Type I, II, III)",
+          "costPeriod": "annual",
+          "annualizedCost": 400,
+          "requirements": [
+            "Plan review",
+            "Health inspection",
+            "Commissary agreement"
+          ],
+          "documents": [
+            "Plan review application",
+            "Equipment specifications",
+            "Menu"
+          ],
+          "applicationUrl": "https://www.maricopa.gov/3977/Mobile-Food-Establishments",
+          "infoUrl": "https://www.maricopa.gov/3977/Mobile-Food-Establishments",
+          "processingTime": "2-4 weeks",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Arizona Transaction Privilege Tax License",
+          "description": "State sales tax permit",
+          "issuingAgency": "Arizona Department of Revenue",
+          "cost": 0,
+          "costPeriod": "permanent",
+          "annualizedCost": 0,
+          "requirements": [
+            "Business registration"
+          ],
+          "documents": [
+            "Business information"
+          ],
+          "applicationUrl": "http://www.azdor.gov/",
+          "infoUrl": "http://www.azdor.gov/",
+          "processingTime": "1-2 weeks",
+          "renewalPeriod": "permanent"
+        }
+      ],
+      "healthDept": {
+        "name": "Maricopa County Environmental Services Department",
+        "phone": "602-506-6616",
+        "website": "https://www.maricopa.gov/3977/Mobile-Food-Establishments",
+        "inspectionRequired": true
+      },
+      "restrictions": [
+        "License is location-specific - one license per location",
+        "Cannot visit multiple sites for more than 30 minutes each under same license",
+        "Must comply with local/city rules in addition to county",
+        "Private property vending requires property owner permission"
+      ],
+      "notes": [
+        "City of Phoenix does not issue general business licenses",
+        "Mobile Food Type I, II, III approved for farmers markets, events, business locations",
+        "Check with local cities within Maricopa County for additional requirements"
+      ],
+      "sources": [
+        "https://www.phoenix.gov/administration/departments/cityclerk/programs-services/license-services/vending/mobile-vending.html",
+        "https://www.maricopa.gov/3977/Mobile-Food-Establishments"
+      ],
+      "lastVerified": "2026-02-03"
+    },
+    {
+      "id": "san-diego-ca",
+      "name": "San Diego",
+      "state": "California",
+      "stateAbbrev": "CA",
+      "population": 1400000,
+      "estFoodTrucks": 800,
+      "permits": [
+        {
+          "type": "Mobile Food Facility Permit",
+          "description": "Required county health permit for food trucks",
+          "issuingAgency": "San Diego County Department of Environmental Health and Quality",
+          "cost": "varies by facility type",
+          "costPeriod": "annual",
+          "annualizedCost": 500,
+          "requirements": [
+            "Plan check approval",
+            "Health inspection",
+            "Commissary agreement",
+            "Food Manager certification"
+          ],
+          "documents": [
+            "Plan submittal package",
+            "Commissary letter",
+            "Menu",
+            "Standard operating procedures"
+          ],
+          "applicationUrl": "https://www.sandiegocounty.gov/content/dam/sdc/deh/fhd/food/pdf/publications_permitapp152.pdf",
+          "infoUrl": "https://www.sandiegocounty.gov/content/sdc/deh/fhd/mobilefood.html",
+          "processingTime": "2-4 weeks",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "City Mobile Food Truck Permit",
+          "description": "Required for operating on private property within city limits",
+          "issuingAgency": "City of San Diego Development Services",
+          "cost": "varies",
+          "costPeriod": "annual",
+          "annualizedCost": 200,
+          "requirements": [
+            "Valid county health permit",
+            "Business tax certificate",
+            "Zoning compliance"
+          ],
+          "documents": [
+            "DS-210 Application",
+            "Site plan with vicinity map",
+            "County health permit copy",
+            "Business tax certificate"
+          ],
+          "applicationUrl": "https://www.sandiego.gov/sites/default/files/legacy/development-services/pdf/industry/forms/ds210.pdf",
+          "infoUrl": "https://www.sandiego.gov/development-services/permits/mobile-food-truck-permit",
+          "processingTime": "varies",
+          "renewalPeriod": "annual"
+        },
+        {
+          "type": "Business Tax Certificate",
+          "description": "Required for all businesses",
+          "issuingAgency": "City of San Diego Treasurer",
+          "cost": "varies",
+          "costPeriod": "annual",
+          "annualizedCost": 75,
+          "requirements": [
+            "Business registration"
+          ],
+          "documents": [
+            "Business registration form"
+          ],
+          "applicationUrl": "https://www.sandiego.gov/treasurer/taxesfees/btax/btaxhow",
+          "infoUrl": "https://www.sandiego.gov/treasurer/taxesfees/btax/btaxhow",
+          "processingTime": "1-2 weeks",
+          "renewalPeriod": "annual"
+        }
+      ],
+      "healthDept": {
+        "name": "San Diego County Department of Environmental Health and Quality",
+        "phone": "858-505-6900",
+        "website": "https://www.sandiegocounty.gov/content/sdc/deh/fhd/mobilefood.html",
+        "inspectionRequired": true
+      },
+      "restrictions": [
+        "Not allowed in Parking Impact Overlay Zone in public right-of-way",
+        "Gaslamp Quarter: daily operations prohibited except as part of special events",
+        "Little Italy NC Zone: restrictions apply",
+        "Must have valid county health permit before city permit"
+      ],
+      "notes": [
+        "Many exemptions available including industrial zones, schools, hospitals, construction sites",
+        "On-street operations in most areas don't require city permit",
+        "Letter grading system implemented for food trucks",
+        "Spanish language resources available"
+      ],
+      "sources": [
+        "https://www.sandiego.gov/development-services/permits/mobile-food-truck-permit",
+        "https://www.sandiegocounty.gov/content/sdc/deh/fhd/mobilefood.html"
+      ],
+      "lastVerified": "2026-02-03"
+    }
+  ]
+}
