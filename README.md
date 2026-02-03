@@ -1,6 +1,6 @@
 # 🚚 Food Truck Permit Hub
 
-**Know Before You Roll** — The first comprehensive food truck permit database.
+**Know Before You Roll** — The first comprehensive food truck permit database with live permit status.
 
 Find permit requirements, costs, and deadlines for operating a food truck in any major US city. Stop Googling. Start operating.
 
