@@ -6,11 +6,20 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { RefreshCw, Clock, CheckCircle, AlertCircle, XCircle } from "lucide-react";
 
+interface PermitOpportunity {
+  name: string;
+  cost: string;
+  deadline: string;
+  status: 'available' | 'closing_soon' | 'closed';
+  priority: 'high' | 'medium' | 'low';
+  url?: string;
+}
+
 interface PermitStatus {
   city: string;
-  status: 'available' | 'processing' | 'closed';
   lastUpdated: string;
-  message: string;
+  totalOpportunities: number;
+  opportunities: PermitOpportunity[];
   source: string;
 }
 
@@ -55,7 +64,7 @@ export function LivePermitStatus({ cityName }: LivePermitStatusProps) {
   const getStatusColor = (status: string) => {
     switch (status) {
       case 'available': return 'bg-green-500';
-      case 'processing': return 'bg-yellow-500';
+      case 'closing_soon': return 'bg-orange-500';
       case 'closed': return 'bg-red-500';
       default: return 'bg-gray-500';
     }
@@ -64,7 +73,7 @@ export function LivePermitStatus({ cityName }: LivePermitStatusProps) {
   const getStatusIcon = (status: string) => {
     switch (status) {
       case 'available': return <CheckCircle className="h-4 w-4" />;
-      case 'processing': return <Clock className="h-4 w-4" />;
+      case 'closing_soon': return <Clock className="h-4 w-4" />;
       case 'closed': return <XCircle className="h-4 w-4" />;
       default: return <AlertCircle className="h-4 w-4" />;
     }
@@ -72,10 +81,19 @@ export function LivePermitStatus({ cityName }: LivePermitStatusProps) {
 
   const getStatusText = (status: string) => {
     switch (status) {
-      case 'available': return 'Available Now';
-      case 'processing': return 'Processing';
+      case 'available': return 'Available';
+      case 'closing_soon': return 'Closing Soon';
       case 'closed': return 'Closed';
       default: return 'Unknown';
+    }
+  };
+
+  const getPriorityColor = (priority: string) => {
+    switch (priority) {
+      case 'high': return 'border-orange-400 bg-orange-50';
+      case 'medium': return 'border-blue-400 bg-blue-50';
+      case 'low': return 'border-gray-400 bg-gray-50';
+      default: return 'border-gray-400 bg-gray-50';
     }
   };
 
@@ -137,22 +155,61 @@ export function LivePermitStatus({ cityName }: LivePermitStatusProps) {
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-4">
-        <div className="flex items-center gap-3">
-          <Badge 
-            className={`${getStatusColor(status.status)} text-white flex items-center gap-1`}
-          >
-            {getStatusIcon(status.status)}
-            {getStatusText(status.status)}
+        <div className="flex items-center gap-3 mb-4">
+          <Badge className="bg-green-500 text-white">
+            {status.totalOpportunities} Active Opportunities
           </Badge>
           <span className="text-sm text-gray-600">
             Updated {new Date(status.lastUpdated).toLocaleTimeString()}
           </span>
         </div>
         
-        <p className="text-gray-700">{status.message}</p>
+        <div className="space-y-3">
+          {status.opportunities.map((opportunity, index) => (
+            <div 
+              key={index}
+              className={`p-3 rounded-lg border-l-4 ${getPriorityColor(opportunity.priority)}`}
+            >
+              <div className="flex items-start justify-between gap-2">
+                <div className="flex-1">
+                  <div className="flex items-center gap-2 mb-1">
+                    <h4 className="font-semibold text-gray-800 text-sm">
+                      {opportunity.name}
+                    </h4>
+                    <Badge 
+                      className={`${getStatusColor(opportunity.status)} text-white flex items-center gap-1 text-xs`}
+                    >
+                      {getStatusIcon(opportunity.status)}
+                      {getStatusText(opportunity.status)}
+                    </Badge>
+                  </div>
+                  
+                  <div className="flex items-center gap-4 text-xs text-gray-600">
+                    <span>💰 {opportunity.cost}</span>
+                    <span>📅 Deadline: {opportunity.deadline}</span>
+                    {opportunity.priority === 'high' && (
+                      <span className="text-orange-600 font-medium">🔥 High Priority</span>
+                    )}
+                  </div>
+                </div>
+                
+                {opportunity.url && (
+                  <Button 
+                    size="sm" 
+                    variant="outline"
+                    className="text-xs h-7"
+                    onClick={() => window.open(opportunity.url, '_blank')}
+                  >
+                    Apply
+                  </Button>
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
         
         <div className="text-xs text-gray-500 border-t pt-2">
-          Source: {status.source}
+          Sources: {status.source}
         </div>
       </CardContent>
     </Card>

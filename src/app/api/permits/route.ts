@@ -1,14 +1,23 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+interface PermitOpportunity {
+  name: string;
+  cost: string;
+  deadline: string;
+  status: 'available' | 'closing_soon' | 'closed';
+  priority: 'high' | 'medium' | 'low';
+  url?: string;
+}
+
 interface PermitStatus {
   city: string;
-  status: 'available' | 'processing' | 'closed';
   lastUpdated: string;
-  message: string;
+  totalOpportunities: number;
+  opportunities: PermitOpportunity[];
   source: string;
 }
 
-// Simple permit status checking - in production this would scrape real websites
+// Permit opportunity data - in production this would scrape real websites
 async function checkPermitStatus(city: string): Promise<PermitStatus> {
   const now = new Date().toISOString();
   
@@ -16,27 +25,83 @@ async function checkPermitStatus(city: string): Promise<PermitStatus> {
     case 'austin':
       return {
         city: 'Austin, TX',
-        status: 'available',
         lastUpdated: now,
-        message: 'Mobile Food Vendor permits are currently accepting applications through the digital platform.',
-        source: 'Austin Public Health Department'
+        totalOpportunities: 4,
+        opportunities: [
+          {
+            name: 'SXSW 2026 Food Vendor Permit',
+            cost: '$500',
+            deadline: 'Feb 15, 2026',
+            status: 'closing_soon',
+            priority: 'high',
+            url: 'https://sxsw.com/apply/'
+          },
+          {
+            name: 'Austin City Limits Festival 2026',
+            cost: '$750',
+            deadline: 'Mar 1, 2026',
+            status: 'available',
+            priority: 'high',
+            url: 'https://aclfestival.com/vendors'
+          },
+          {
+            name: 'Austin Mobile Food Vendor Annual Permit',
+            cost: '$760',
+            deadline: 'Rolling basis',
+            status: 'available',
+            priority: 'medium',
+            url: 'https://www.austintexas.gov/department/mobile-food-vendors'
+          },
+          {
+            name: 'Zilker Park Events - Spring 2026',
+            cost: '$200-400',
+            deadline: 'Mar 15, 2026', 
+            status: 'available',
+            priority: 'medium'
+          }
+        ],
+        source: 'Austin Public Health, SXSW, ACL Festival'
       };
     
     case 'portland':
       return {
         city: 'Portland, OR',
-        status: 'processing',
         lastUpdated: now,
-        message: 'Sidewalk vending permits are being processed. Current wait time: 6-8 weeks.',
-        source: 'Portland Bureau of Transportation'
+        totalOpportunities: 3,
+        opportunities: [
+          {
+            name: 'Portland Food Cart Pod License',
+            cost: '$760',
+            deadline: 'Rolling basis',
+            status: 'available',
+            priority: 'high',
+            url: 'https://www.portland.gov/ppd/commercial-permitting/food-carts'
+          },
+          {
+            name: 'Portland Food Festival Week 2026',
+            cost: '$210',
+            deadline: 'Feb 15, 2026',
+            status: 'closing_soon',
+            priority: 'high'
+          },
+          {
+            name: 'Multnomah County Temporary Food Events',
+            cost: '$150-300',
+            deadline: 'Varies by event',
+            status: 'available',
+            priority: 'medium',
+            url: 'https://multco.us/services/food-carts'
+          }
+        ],
+        source: 'Portland Bureau of Transportation, Multnomah County'
       };
     
     default:
       return {
         city: city,
-        status: 'closed',
         lastUpdated: now,
-        message: 'Permit status unavailable. Check directly with city office.',
+        totalOpportunities: 0,
+        opportunities: [],
         source: 'Unknown'
       };
   }
