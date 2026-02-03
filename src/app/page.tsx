@@ -17,7 +17,7 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold text-slate-800 mb-4">
               Know Before You{" "}
-              <span className="text-orange-500">Roll</span>
+              <span className="text-orange-500">Roll</span> 🚚
             </h1>
             <p className="text-lg md:text-xl text-slate-600 mb-8 max-w-2xl mx-auto">
               The first comprehensive food truck permit database. 
